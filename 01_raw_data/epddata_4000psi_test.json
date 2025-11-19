@@ -1,0 +1,667 @@
+[
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "b90816ed96aa4ece9dcd6a47fc8aaef5",
+        "short_link": "buildingtransparency.org/e/ec3mmgupes",
+        "date_of_issue": "2016-10-27",
+        "gwp_per_category_declared_unit": "293 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "0ca8fc5c8925487cabc43b7f6dd7bb20",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "293 kgCO2e",
+        "plant_geography": [
+            "US-CA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "56aa25e7945449fdb2104a1bacf359a2",
+        "short_link": "buildingtransparency.org/e/ec326z3z8z",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "524 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "524 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "b1ae3fc1988f463181e5e0a9881228d3",
+        "short_link": "buildingtransparency.org/e/ec38ux09td",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "414 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "414 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "19a5a1c311244d97a45e53c98a793a1e",
+        "short_link": "buildingtransparency.org/e/ec3j7m4say",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "335 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "335 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "f081ca80de0a43a3897501410bc0e56d",
+        "short_link": "buildingtransparency.org/e/ec3cwysqn0",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "379 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "379 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "c0e12fca937c44dab6b154fc9b70e434",
+        "short_link": "buildingtransparency.org/e/ec3h3xnzrc",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "407 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "407 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "dbf91988b12843eaaa44322a46be4930",
+        "short_link": "buildingtransparency.org/e/ec3g78asgg",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "376 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "376 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "5ead9654398341ffb38d868ab3e7b1e1",
+        "short_link": "buildingtransparency.org/e/ec39f1b8rh",
+        "date_of_issue": "2017-08-21",
+        "gwp_per_category_declared_unit": "335 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "335 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "f70f8d93685c4732878ee559e41dace8",
+        "short_link": "buildingtransparency.org/e/ec3qdqty7b",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "330 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "330 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "7bfeda9abcf24979b46fc39662713296",
+        "short_link": "buildingtransparency.org/e/ec38jmm04u",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "350 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "6ce3db41b35e42d296fa139c0b18032b",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "350 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "eda1d7f96c454ba698ac509b82e65b1f",
+        "short_link": "buildingtransparency.org/e/ec34mng02r",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "319 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "6ce3db41b35e42d296fa139c0b18032b",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "319 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.4
+        },
+        "id": "a65f0c1359d141d48129a5645ff1f548",
+        "short_link": "buildingtransparency.org/e/ec3z1dx6xh",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "261 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "261 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "9511bf2083ea486e8edc40743af5e96c",
+        "short_link": "buildingtransparency.org/e/ec35nwrgcg",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "307 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "307 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "9b480ad9312f48d0a1af73c1e87d38d5",
+        "short_link": "buildingtransparency.org/e/ec31ng15mn",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "340 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "340 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "6e89ee78404e40e2a66ba505109a40db",
+        "short_link": "buildingtransparency.org/e/ec33q6dj2t",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "340 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "6ce3db41b35e42d296fa139c0b18032b",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "340 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "1a16b8d3577d4df5ab3f0ecb49bde222",
+        "short_link": "buildingtransparency.org/e/ec3fxen2gy",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "317 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "6ce3db41b35e42d296fa139c0b18032b",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "317 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "f159ef24fbd74a64989bfd5922099f55",
+        "short_link": "buildingtransparency.org/e/ec330tnkmf",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "340 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "340 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "89c3ec953df94135a55d1b2a8272416c",
+        "short_link": "buildingtransparency.org/e/ec3kn850rt",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "312 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "312 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "d749f7467d0141aaaeef66935899f27f",
+        "short_link": "buildingtransparency.org/e/ec3rtu2ywg",
+        "date_of_issue": "2018-10-05",
+        "gwp_per_category_declared_unit": "337 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "337 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "d7d1f8f9942d4f1aa9d0a10cdaa578b1",
+        "short_link": "buildingtransparency.org/e/ec305ufmke",
+        "date_of_issue": "2018-11-13",
+        "gwp_per_category_declared_unit": "347 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "6ce3db41b35e42d296fa139c0b18032b",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "347 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "4720d61372684e1caf6313e5faec3981",
+        "short_link": "buildingtransparency.org/e/ec3eb59pk8",
+        "date_of_issue": "2019-02-11",
+        "gwp_per_category_declared_unit": "325 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "325 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "ab5be1ce4c7e423693ccf98909ec00c7",
+        "short_link": "buildingtransparency.org/e/ec3mjnsaaj",
+        "date_of_issue": "2019-02-26",
+        "gwp_per_category_declared_unit": "487 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "f5afcef8a40b43c4aec361e3686986ba",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "487 kgCO2e",
+        "plant_geography": [
+            "US-CA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "d988699badc94d90b4f2311c99758626",
+        "short_link": "buildingtransparency.org/e/ec379dnjx5",
+        "date_of_issue": "2020-03-25",
+        "gwp_per_category_declared_unit": "317 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "317 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "373379abf0444d90b9c7756ba3172cda",
+        "short_link": "buildingtransparency.org/e/ec3xye6t44",
+        "date_of_issue": "2020-03-25",
+        "gwp_per_category_declared_unit": "338 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "338 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "1910cbb6ee184a25b6db81bc3833c205",
+        "short_link": "buildingtransparency.org/e/ec3p34jbm4",
+        "date_of_issue": "2020-04-20",
+        "gwp_per_category_declared_unit": "334 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "334 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "ef00d9e8277d4897b665235b521c24ea",
+        "short_link": "buildingtransparency.org/e/ec37323d4n",
+        "date_of_issue": "2020-04-20",
+        "gwp_per_category_declared_unit": "322 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "322 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "7654086c99024cc3958ee9d633b884c2",
+        "short_link": "buildingtransparency.org/e/ec3mpkyekm",
+        "date_of_issue": "2020-04-21",
+        "gwp_per_category_declared_unit": "322 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "322 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "25d74a0ca99747a5877a1164a6a92ea3",
+        "short_link": "buildingtransparency.org/e/ec3hhmw9cd",
+        "date_of_issue": "2020-04-21",
+        "gwp_per_category_declared_unit": "322 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "c2fece1afd414d8684e014f0cfad6a19",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "322 kgCO2e",
+        "plant_geography": [
+            "US-NC"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "db4179c53f2047bbb6a0f7188125cf5d",
+        "short_link": "buildingtransparency.org/e/ec309n3tbe",
+        "date_of_issue": "2020-06-04",
+        "gwp_per_category_declared_unit": "379 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "379 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "375689008801466db143dffed58c4de1",
+        "short_link": "buildingtransparency.org/e/ec3ap9gw5e",
+        "date_of_issue": "2020-06-09",
+        "gwp_per_category_declared_unit": "297 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "297 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "29eb45928c13403f95521a6085ab8e07",
+        "short_link": "buildingtransparency.org/e/ec3pfy5mm7",
+        "date_of_issue": "2020-06-09",
+        "gwp_per_category_declared_unit": "380 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "380 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "6816a99ccbb449b28c11f0ac74da9e00",
+        "short_link": "buildingtransparency.org/e/ec3kr4az1n",
+        "date_of_issue": "2020-06-30",
+        "gwp_per_category_declared_unit": "338 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "338 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "89382ed9dbad4e5ba61d9e0f4581a412",
+        "short_link": "buildingtransparency.org/e/ec3tk6r7a6",
+        "date_of_issue": "2020-06-30",
+        "gwp_per_category_declared_unit": "363 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "363 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.0
+        },
+        "id": "96bb1de9ea774f4cb3c6a7ea90e8b532",
+        "short_link": "buildingtransparency.org/e/ec3uwxb16r",
+        "date_of_issue": "2020-06-30",
+        "gwp_per_category_declared_unit": "134 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "17c6252d2c134397ae68976974cd6ee5",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "134 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    },
+    {
+        "cementitious": {
+            "fly_ash": 0.2
+        },
+        "id": "6280661c8e2746dd90dd6bfec3f0ad92",
+        "short_link": "buildingtransparency.org/e/ec34mwarxq",
+        "date_of_issue": "2021-10-02",
+        "gwp_per_category_declared_unit": "314.69 kgCO2e",
+        "concrete_compressive_strength_28d": "27.6 MPa",
+        "plant_or_group": {
+            "id": "512e4d306fa44a818bccbfa70476c3e8",
+            "type": "Plant"
+        },
+        "lightweight": false,
+        "gwp": "314.69 kgCO2e",
+        "plant_geography": [
+            "US-GA"
+        ]
+    }
+]
