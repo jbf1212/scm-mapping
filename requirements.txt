@@ -1,3 +1,4 @@
 plotly
 pandas
 ec3-python-wrapper>=0.0.9
+nbformat
