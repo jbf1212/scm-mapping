@@ -1,74 +1,109 @@
 # Processing Scripts Directory
 
-This directory contains scripts and notebooks for collecting, processing, and cleaning data used in the supply chain mapping analysis.
+This directory contains Jupyter notebooks for collecting, cleaning, and filtering data used in the SCM mapping analysis. Run notebooks in the order shown in the pipeline below.
 
-## Scripts
+## Data Pipeline
+
+```
+EC3 API
+   ↓
+ec3_concrete_epd_gather_all.ipynb   → 01_raw_data/epd_data_all.json
+   ↓
+ec3_concrete_data_cleaning.ipynb    → 02_processed_data/epd_data_cleaned_all.pkl
+   ↓
+   ├── ec3_concrete_filtering_all.ipynb     → 02_processed_data/epd_data_all.csv
+   └── ec3_concrete_filtering_flyash.ipynb  → 02_processed_data/epd_data_fly_ash.csv
+                                               02_processed_data/epd_data_fly_ash_or_ggbs.csv
+
+Global Energy Monitor (Excel)
+   ↓
+coal_plant_data_filtering.ipynb     → 02_processed_data/active_coal_plants_US.csv
+```
+
+---
+
+## Notebooks
 
 ### EC3 Data Collection
 
-#### `ec3_concrete_epd_gather.ipynb`
-Jupyter notebook that queries the EC3 (Embodied Carbon in Construction Calculator) database to retrieve Environmental Product Declaration (EPD) data for concrete products.
+#### `ec3_concrete_epd_gather_all.ipynb`
+Queries the EC3 database via the `ec3-python-wrapper` API to retrieve Environmental Product Declaration (EPD) data for all US concrete products.
 
-**Outputs:**
-- `../01_raw_data/epd_data_all.json` - Complete dataset of concrete EPDs across all compressive strengths
+**Inputs:** EC3 API (requires `EC3_KEY` environment variable)
 
-**Key Features:**
-- Filters concrete EPDs by various parameters (compressive strength, plant location, etc.)
-- Retrieves detailed cementitious material composition data (fly ash, GGBS, etc.)
-- Uses the `ec3-python-wrapper` package for API access
+**Outputs:** `../01_raw_data/epd_data_all.json` (~76,100 records)
+
+**Key filters applied:**
+- Non-lightweight concrete only
+- US plants only
+- Manufacturer-specific and plant-specific EPDs
+
+---
 
 #### `ec3_concrete_data_cleaning.ipynb`
-Jupyter notebook for cleaning and processing raw EPD data from EC3.
+Cleans and standardizes the raw EPD JSON export for downstream analysis.
 
-**Inputs:**
-- `../01_raw_data/epd_data_all.json` - Raw EPD data
+**Inputs:** `../01_raw_data/epd_data_all.json`
+
+**Outputs:** `../02_processed_data/epd_data_cleaned_all.pkl` (69,305 records)
+
+**Key processing steps:**
+- Flattens nested JSON structures (`plant_or_group`, cementitious material fields)
+- Converts datetime strings to datetime objects; filters to post-2020 EPDs
+- Converts compressive strength to psi (handles MPa and ksi inputs), rounds to nearest 500 psi
+- Calculates GWP per cubic yard (multiply by 0.764555 m³/yd³ conversion)
+- Removes outliers using IQR method globally and per compressive strength bucket
+
+---
+
+### EPD Filtering
+
+#### `ec3_concrete_filtering_all.ipynb`
+Exports the full cleaned EPD dataset to CSV.
+
+**Inputs:** `../02_processed_data/epd_data_cleaned_all.pkl`
+
+**Outputs:** `../02_processed_data/epd_data_all.csv` (all EPDs with valid GWP)
+
+---
+
+#### `ec3_concrete_filtering_flyash.ipynb`
+Filters the cleaned EPD dataset to records containing SCM data.
+
+**Inputs:** `../02_processed_data/epd_data_cleaned_all.pkl`
 
 **Outputs:**
-- `../02_processed_data/epd_data_cleaned.pkl` - Cleaned and processed EPD data as a pandas pickle file
+- `../02_processed_data/epd_data_fly_ash.csv` — EPDs with fly ash content only
+- `../02_processed_data/epd_data_fly_ash_or_ggbs.csv` — EPDs with fly ash and/or GGBS (4,745 records)
 
-**Key Processing Steps:**
-- Flattens nested JSON structures (plant_or_group, cementitious materials)
-- Converts datetime strings to datetime objects
-- Extracts and normalizes compressive strength values
-- Calculates GWP per cubic yard
-- Filters and validates data quality
+---
 
-### OpenEPD Data Collection
+### Energy Infrastructure Data
 
-#### `openEPD_concrete_epd_gather.ipynb`
-Jupyter notebook for gathering concrete EPD data from the OpenEPD database (alternative/supplementary data source).
+#### `coal_plant_data_filtering.ipynb`
+Processes the Global Energy Monitor coal plant tracker to extract active US facilities.
 
-### Energy Infrastructure Data (coming soon...)
+**Inputs:** `../01_raw_data/coal_plant_data/Global-Coal-Plant-Tracker-October-2025-*.xlsx`
 
-### Python Packages
-- `pandas` - Data manipulation and analysis
-- `ec3-python-wrapper` - EC3 API access
-- `plotly` - Data visualization
-- `numpy` - Numerical operations
+**Outputs:** `../02_processed_data/active_coal_plants_US.csv` (391 plants)
 
-See [`requirements.txt`](../requirements.txt) for complete package dependencies.
+**Key filtering steps:**
+- Filters to US plants only (1,221 initial records)
+- Removes retired plants
+- Keeps only plants with "operating" status (391 final records)
 
-### Environment Variables
-- `EC3_KEY` - EC3 API access token (required for EC3 data collection)
+---
+
+## Requirements
+
+- **Python packages:** `pandas`, `numpy`, `plotly`, `ec3-python-wrapper`, `openpyxl`
+- **Environment variable:** `EC3_KEY` — required for EC3 data collection notebooks
+
+See [`requirements.txt`](../requirements.txt) for complete dependencies.
 
 ## Usage Notes
 
-- Scripts should be run in the order indicated by their filenames when processing a complete data pipeline
-- All raw data is saved to [`01_raw_data/`](../01_raw_data/)
-- All cleaned/processed data is saved to `02_processed_data/`
-- Ensure EC3 API credentials are configured before running EC3 data collection scripts
-- Notebooks are designed to be run from within the `03_processing_scripts/` directory
-
-## Data Flow
-
-```
-1. Data Collection (ec3_concrete_epd_gather.ipynb)
-   ↓
-   01_raw_data/epd_data_all.json
-   ↓
-2. Data Cleaning (ec3_concrete_data_cleaning.ipynb)
-   ↓
-   02_processed_data/epd_data_cleaned.pkl
-   ↓
-3. Analysis (../04_analysis_scripts/)
-```
+- Notebooks should be run from within the `03_processing_scripts/` directory
+- Raw data is saved to [`01_raw_data/`](../01_raw_data/)
+- Cleaned/processed data is saved to [`02_processed_data/`](../02_processed_data/)
+- Ensure `EC3_KEY` is set before running EC3 collection notebooks
