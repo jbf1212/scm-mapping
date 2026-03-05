@@ -210,5 +210,8 @@ __marimo__/
 #testing folder
 tests/
 
+# Large raw data files
+01_raw_data/epd_data_all.json
+
 # SSL certificates
 certs/
