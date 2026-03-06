@@ -12,6 +12,7 @@ This directory contains cleaned, filtered, and analysis-ready datasets derived f
 | `epd_data_all.csv` | CSV export of all cleaned EPDs with valid GWP values | 69,305 | `ec3_concrete_filtering_all.ipynb` |
 | `epd_data_fly_ash.csv` | Subset filtered to EPDs with fly ash content | — | `ec3_concrete_filtering_flyash.ipynb` |
 | `epd_data_fly_ash_or_ggbs.csv` | Subset filtered to EPDs with fly ash and/or GGBS content | 4,745 | `ec3_concrete_filtering_flyash.ipynb` |
+| `active_concrete_plants_ec3.csv` | Deduplicated list of unique concrete plants with coordinates and EPD count | — | `ec3_concrete_plant_list.ipynb` |
 
 **Notes on EPD data:**
 - GWP values are normalized to **kgCO2e per cubic yard** for cross-EPD comparability

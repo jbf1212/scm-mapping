@@ -12,8 +12,9 @@ ec3_concrete_epd_gather_all.ipynb   → 01_raw_data/epd_data_all.json
 ec3_concrete_data_cleaning.ipynb    → 02_processed_data/epd_data_cleaned_all.pkl
    ↓
    ├── ec3_concrete_filtering_all.ipynb     → 02_processed_data/epd_data_all.csv
-   └── ec3_concrete_filtering_flyash.ipynb  → 02_processed_data/epd_data_fly_ash.csv
-                                               02_processed_data/epd_data_fly_ash_or_ggbs.csv
+   ├── ec3_concrete_filtering_flyash.ipynb  → 02_processed_data/epd_data_fly_ash.csv
+   │                                          02_processed_data/epd_data_fly_ash_or_ggbs.csv
+   └── ec3_concrete_plant_list.ipynb        → 02_processed_data/active_concrete_plants_ec3.csv
 
 Global Energy Monitor (Excel)
    ↓
@@ -64,6 +65,21 @@ Exports the full cleaned EPD dataset to CSV.
 **Inputs:** `../02_processed_data/epd_data_cleaned_all.pkl`
 
 **Outputs:** `../02_processed_data/epd_data_all.csv` (all EPDs with valid GWP)
+
+---
+
+#### `ec3_concrete_plant_list.ipynb`
+Builds a deduplicated list of concrete plants from the cleaned EPD dataset, with coordinates and EPD counts.
+
+**Inputs:** `../02_processed_data/epd_data_cleaned_all.pkl`
+
+**Outputs:** `../02_processed_data/active_concrete_plants_ec3.csv`
+
+**Key processing steps:**
+- Strips leading/trailing whitespace from plant names to merge near-duplicate entries
+- Checks for coordinate conflicts (multiple distinct plant names sharing the same lat/lon) and reports any found
+- Deduplicates on `plant_or_group.name` and joins the total EPD count per plant
+- Output columns: `plant_name`, `latitude`, `longitude`, `epd_count`
 
 ---
 
