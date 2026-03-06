@@ -69,9 +69,11 @@ Exports the full cleaned EPD dataset to CSV.
 ---
 
 #### `ec3_concrete_plant_list.ipynb`
-Builds a deduplicated list of concrete plants from the cleaned EPD dataset, with coordinates and EPD counts.
+Builds a deduplicated list of concrete plants from the cleaned EPD dataset, with coordinates and EPD counts. Filters to continental US only using a geographic point-in-polygon test.
 
-**Inputs:** `../02_processed_data/epd_data_cleaned_all.pkl`
+**Inputs:**
+- `../02_processed_data/epd_data_cleaned_all.pkl`
+- `../01_raw_data/country_shapefiles/` — Natural Earth country boundary shapefile (read via `geopandas`)
 
 **Outputs:** `../02_processed_data/active_concrete_plants_ec3.csv`
 
@@ -79,6 +81,7 @@ Builds a deduplicated list of concrete plants from the cleaned EPD dataset, with
 - Strips leading/trailing whitespace from plant names to merge near-duplicate entries
 - Checks for coordinate conflicts (multiple distinct plant names sharing the same lat/lon) and reports any found
 - Deduplicates on `plant_or_group.name` and joins the total EPD count per plant
+- **Geographic filtering:** Uses `geopandas` to run a point-in-polygon test against the US country boundary from the Natural Earth shapefile. This correctly handles the irregular US-Canada border — a simple latitude cutoff is insufficient because Vancouver Island (e.g. Victoria, BC at 48.4°N) dips south of the 49th parallel but is still Canadian territory. A bounding box clip is then applied to drop Alaska and Hawaii, restricting output to the continental US.
 - Output columns: `plant_name`, `latitude`, `longitude`, `epd_count`
 
 ---
@@ -112,7 +115,7 @@ Processes the Global Energy Monitor coal plant tracker to extract active US faci
 
 ## Requirements
 
-- **Python packages:** `pandas`, `numpy`, `plotly`, `ec3-python-wrapper`, `openpyxl`
+- **Python packages:** `pandas`, `numpy`, `plotly`, `geopandas`, `ec3-python-wrapper`, `openpyxl`
 - **Environment variable:** `EC3_KEY` — required for EC3 data collection notebooks
 
 See [`requirements.txt`](../requirements.txt) for complete dependencies.

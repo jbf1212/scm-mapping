@@ -39,3 +39,22 @@ Global Energy Monitor, Global Coal Plant Tracker, October 2025 Supplement releas
 Location and operational data for steel plants. Intended for future analysis of GGBS supply sources.
 
 **Source:** Global Energy Monitor – Global Steel Plant Tracker
+
+---
+
+### Geographic Reference Data (`country_shapefiles/`)
+
+Natural Earth 110m-resolution country boundary shapefile, used by [`ec3_concrete_plant_list.ipynb`](../03_processing_scripts/ec3_concrete_plant_list.ipynb) to filter concrete plant locations to the continental US via a point-in-polygon test.
+
+**Source:** [Natural Earth](https://www.naturalearthdata.com/) via `naciscdn.org` (`ne_110m_admin_0_countries`)
+
+**Files:**
+| File | Description |
+|------|-------------|
+| `ne_110m_admin_0_countries.shp` | Country boundary polygons |
+| `ne_110m_admin_0_countries.dbf` | Attribute table (includes `ISO_A3` country codes) |
+| `ne_110m_admin_0_countries.prj` | Coordinate reference system (WGS84) |
+| `ne_110m_admin_0_countries.shx` | Shapefile index |
+| `ne_110m_admin_0_countries.cpg` | Character encoding |
+
+**Why this is committed to the repo:** The shapefile is small (~500 KB total) and used as static reference data. Committing it avoids a runtime network download, which was unreliable in this environment due to SSL certificate verification issues with `naciscdn.org`.
