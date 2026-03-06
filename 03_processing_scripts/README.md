@@ -104,12 +104,14 @@ Processes the Global Energy Monitor coal plant tracker to extract active US faci
 
 **Inputs:** `../01_raw_data/coal_plant_data/Global-Coal-Plant-Tracker-October-2025-*.xlsx`
 
-**Outputs:** `../02_processed_data/active_coal_plants_US.csv` (391 plants)
+**Outputs:** `../02_processed_data/active_coal_plants_US.csv`
 
 **Key filtering steps:**
 - Filters to US plants only (1,221 initial records)
 - Removes retired plants
-- Keeps only plants with "operating" status (391 final records)
+- Keeps only plants with "operating" status
+- Removes plants where `Coal type` is "waste coal"
+- Deduplicates by `GEM location ID` — the source "Units" sheet tracks individual generating units, so multi-unit plants appear multiple times at the same coordinates; the unit with the highest capacity is retained to represent each plant location
 
 ---
 
