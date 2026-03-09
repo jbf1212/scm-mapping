@@ -51,7 +51,8 @@ Cleans and standardizes the raw EPD JSON export for downstream analysis.
 **Key processing steps:**
 - Flattens nested JSON structures (`plant_or_group`, cementitious material fields)
 - Converts datetime strings to datetime objects; filters to post-2020 EPDs
-- Converts compressive strength to psi (handles MPa and ksi inputs), rounds to nearest 500 psi
+- Drops records where both `concrete_compressive_strength_28d` and `concrete_compressive_strength_other` are null
+- Converts compressive strength to psi (handles MPa and ksi inputs), rounds to nearest 500 psi; uses the larger of `concrete_compressive_strength_28d` and `concrete_compressive_strength_other` when both are present (captures mixes that reach full strength after 28 days)
 - Calculates GWP per cubic yard (multiply by 0.764555 m³/yd³ conversion)
 - Removes outliers using IQR method globally and per compressive strength bucket
 

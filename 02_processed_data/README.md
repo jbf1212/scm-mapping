@@ -16,7 +16,7 @@ This directory contains cleaned, filtered, and analysis-ready datasets derived f
 
 **Notes on EPD data:**
 - GWP values are normalized to **kgCO2e per cubic yard** for cross-EPD comparability
-- Compressive strength is converted to **psi** and rounded to the nearest 500 psi
+- Compressive strength is converted to **psi** and rounded to the nearest 500 psi; represents the final (design) strength using the larger of `concrete_compressive_strength_28d` and `concrete_compressive_strength_other` to capture mixes that reach full strength after 28 days
 - Outliers are removed using an IQR method applied globally and then per compressive strength bucket
 - The `.pkl` format is used for efficient reload in downstream notebooks; use the `.csv` files for general-purpose access
 
