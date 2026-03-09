@@ -4,3 +4,7 @@ geopandas
 ec3-python-wrapper>=0.0.9
 nbformat
 openpyxl
+folium
+scipy
+matplotlib>=3.7
+kaleido
