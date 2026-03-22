@@ -7,4 +7,4 @@ openpyxl
 folium
 scipy
 matplotlib>=3.7
-kaleido
+kaleido==1.1.0
