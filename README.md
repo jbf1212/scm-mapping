@@ -1,4 +1,4 @@
-# Study for Mapping Supplementary Cementitious Materials
+# Study for Analyzing & Mapping Supplementary Cementitious Materials
 
 ---
 
