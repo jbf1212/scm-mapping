@@ -25,7 +25,7 @@ Fly ash and slag, both industrial byproducts, are commonly used as Supplementary
 ### Data Sources
 
 **Environmental Product Declarations (EPDs):**
-72,000+ records from the [Building Transparency EC3](https://buildingtransparency.org/ec3) database, accessed via the EC3 API using the [ec3-python-wrapper](https://github.com/jbf1212/ec3-python-wrapper).
+75,000+ records from the [Building Transparency EC3](https://buildingtransparency.org/ec3) database, accessed via the EC3 API using the [ec3-python-wrapper](https://github.com/jbf1212/ec3-python-wrapper).
 
 **Coal Plant Data:**
 U.S. coal plant locations and capacity from the [Global Energy Monitor – Global Coal Plant Tracker](https://globalenergymonitor.org/projects/global-coal-plant-tracker/) dataset.
