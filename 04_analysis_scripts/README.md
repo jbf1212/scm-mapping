@@ -35,6 +35,8 @@ Produces three publication-quality visualizations analyzing fly ash usage patter
 ### `road_routing_poc.ipynb`
 Proof-of-concept demonstrating road-based routing from a single concrete plant to its five nearest coal plants by drive distance.
 
+A fully interactive version of this analysis was further developed and can be found at **[flyashmap.matterflows.com](https://flyashmap.matterflows.com/)**.
+
 **Inputs:**
 - `../02_processed_data/active_concrete_plants_ec3.csv`
 - `../02_processed_data/active_coal_plants_US.csv`
