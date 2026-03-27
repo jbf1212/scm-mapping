@@ -33,7 +33,7 @@ U.S. coal plant locations and capacity from the [Global Energy Monitor – Globa
 ### Summary of Findings
 
 **SCM Performance by Strength:**
-While fly ash is generally assumed to reduce GWP, the data shows that for higher-strength mixes (≥ 6,000 psi), fly ash substitution is often associated with higher GWP. Emissions benefits are more consistently observed in lower-strength mixes, suggesting that SCM optimization should be strength-dependent rather than assumed universally beneficial.
+While fly ash is generally assumed to reduce Global Warming Potential (GWP), the data shows that for higher-strength mixes (≥ 6,000 psi), fly ash substitution is often associated with higher GWP. Emissions benefits for fly ash are more consistently observed in lower-strength mixes, suggesting that the use of fly ash (and to a certain extent slag) for lowering GWP may be best applied at lower strength mixes. That said, the application of SCMs for higher strength mixes can often be for reasons beyond purely lowering GWP - so there are likely multiple factors contributing to the distributions seen in the data.
 
 **Geographic Patterns:**
 Mapping concrete plants against coal plants reveals regional disparities in fly ash availability. The West Coast and Northeast have relatively few coal plants, potentially increasing transport distances and embodied emissions. In these regions, imported fly ash via ship or alternative SCMs may be more viable decarbonization strategies.
@@ -50,7 +50,7 @@ ec3_concrete_epd_gather_all.ipynb       → 01_raw_data/epd_data_all.json (~76k 
 ec3_concrete_data_cleaning.ipynb        → 02_processed_data/epd_data_cleaned_all.pkl (69,305 records)
    ↓
    ├── ec3_concrete_filtering_all.ipynb → 02_processed_data/epd_data_all.csv
-   └── ec3_concrete_filtering_flyash.ipynb → 02_processed_data/epd_data_fly_ash.csv
+   └── ec3_concrete_filtering_scm.ipynb → 02_processed_data/epd_data_fly_ash.csv
                                             02_processed_data/epd_data_fly_ash_or_ggbs.csv
 
 Global Energy Monitor (Excel)

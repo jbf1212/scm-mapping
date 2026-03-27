@@ -12,7 +12,7 @@ ec3_concrete_epd_gather_all.ipynb   → 01_raw_data/epd_data_all.json
 ec3_concrete_data_cleaning.ipynb    → 02_processed_data/epd_data_cleaned_all.pkl
    ↓
    ├── ec3_concrete_filtering_all.ipynb     → 02_processed_data/epd_data_all.csv
-   ├── ec3_concrete_filtering_flyash.ipynb  → 02_processed_data/epd_data_fly_ash.csv
+   ├── ec3_concrete_filtering_scm.ipynb  → 02_processed_data/epd_data_fly_ash.csv
    │                                          02_processed_data/epd_data_fly_ash_or_ggbs.csv
    └── ec3_concrete_plant_list.ipynb        → 02_processed_data/active_concrete_plants_ec3.csv
 
@@ -87,7 +87,7 @@ Builds a deduplicated list of concrete plants from the cleaned EPD dataset, with
 
 ---
 
-#### `ec3_concrete_filtering_flyash.ipynb`
+#### `ec3_concrete_filtering_scm.ipynb`
 Filters the cleaned EPD dataset to records containing SCM data.
 
 **Inputs:** `../02_processed_data/epd_data_cleaned_all.pkl`
