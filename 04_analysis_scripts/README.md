@@ -52,6 +52,28 @@ A fully interactive version of this analysis was further developed and can be fo
 
 ---
 
+### `road_shortest_distance_study.ipynb`
+Calculates the road distance from every active concrete plant to its nearest coal plant and compares regional averages against NRMCA-reported truck distances.
+
+**Inputs:**
+- `../02_processed_data/active_concrete_plants_ec3.csv`
+- `../02_processed_data/active_coal_plants_US.csv`
+- `../02_processed_data/concrete_plant_closest_coal_distances.csv` *(pre-computed; see note below)*
+
+**Outputs:**
+- `../02_processed_data/concrete_plant_closest_coal_distances.csv` — per-plant closest coal plant distances
+
+**Key steps:**
+- Downloads US state boundary shapefile (Census Bureau TIGER/Line) and performs a spatial join to assign each concrete plant to an NRMCA region
+- Pre-filters coal plant candidates using a `scipy.spatial.KDTree` on unit-sphere coordinates
+- Queries the OSRM public API for actual road distance to each candidate, taking the minimum across the top 5 nearest coal plants
+- Aggregates mean distances by NRMCA region and nationally
+- Outputs a 9-row table (8 regions + national average) comparing NRMCA-reported truck distances to calculated values
+
+**Note on the OSRM routing cell:** Results are pre-computed and saved to `concrete_plant_closest_coal_distances.csv`. That cell only needs to be re-run if the input plant data changes. Running from scratch takes over an hour; the cell resumes automatically from any existing CSV, so only new/missing plants are processed. Coverage from the initial run: 1,026 of 1,035 region-assigned plants (~99%).
+
+---
+
 ## Dependencies
 
 - **R packages:** `ggplot2`, `dplyr`, `sf`, `maps` (or equivalent spatial packages)

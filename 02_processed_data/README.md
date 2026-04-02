@@ -28,6 +28,8 @@ This directory contains cleaned, filtered, and analysis-ready datasets derived f
 |------|-------------|---------|--------------|
 | `active_coal_plants_US.csv` | Active (operating) coal-fired power plants in the US, with location, capacity, and ownership data | — | `coal_plant_data_filtering.ipynb` |
 
+| `concrete_plant_closest_coal_distances.csv` | Per-plant road distance (miles) to the nearest coal plant, with NRMCA region assignment. Pre-computed to avoid re-running the OSRM routing cell. | 1,026 | `road_shortest_distance_study.ipynb` |
+
 **Notes on coal plant data:**
 - Filtered from the Global Energy Monitor Global Coal Plant Tracker (October 2025)
 - Includes only plants with "operating" status (retired plants excluded)

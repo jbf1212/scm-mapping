@@ -1,0 +1,1027 @@
+plant_name,region,closest_coal_mi
+Newark,Eastern,181.14829681732888
+Roseland,Eastern,178.96497943256242
+Bogota,Eastern,200.688294580387
+Howell,Eastern,172.40023860713086
+North Bergen,Eastern,197.445288130538
+Broadway,Eastern,185.4268209328048
+Port of Portland,Pacific Northwest,97.4021648626145
+West Nyack,Eastern,211.38211937813017
+Vernon,Pacific Southwest,614.7722047547442
+Queens Lane (wet),Pacific Southwest,448.3444144804703
+Irvine,Pacific Southwest,599.2326668075111
+Wildish,Pacific Northwest,517.6775572594977
+Artesia,Pacific Southwest,554.0392334745922
+Oakland,Pacific Southwest,418.8475399853356
+Sun Valley,Pacific Southwest,595.8471174518747
+Redwood City,Pacific Southwest,445.6554860998919
+Corvallis,Pacific Northwest,187.35313855369284
+Pier 92 Amador,Pacific Southwest,422.19878956590907
+Hilroy,Pacific Northwest,146.92140877626855
+STOCKTON PLANT WET,Pacific Southwest,450.1907614301515
+Queens Lane (dry),Pacific Southwest,491.402003305703
+Santa Clara,Pacific Southwest,728.4451390010812
+Annapolis Junction,Eastern,68.77974821976711
+Redwood City B,Pacific Southwest,489.63376290901857
+Canoga Park,Pacific Southwest,587.7890936657263
+Brookshire Plant,South Central,63.60650950078914
+Stockton (wet),Pacific Southwest,493.5483490126387
+Baltimore,Eastern,60.84102799905551
+Irwindale,Pacific Southwest,571.5352877577144
+Glendale,Pacific Southwest,567.1882262293859
+Morrisville,South Eastern,148.01384418457258
+North,South Eastern,33.59588402699243
+South Gate,Pacific Southwest,563.4473138056595
+Broadway Plant,Eastern,266.2757403656157
+San Jose,Pacific Southwest,913.8402077870433
+Santa Clarita,Pacific Southwest,593.2405830961761
+Van Nuys,Pacific Southwest,579.5835559918974
+South San Francisco (wet),Pacific Southwest,877.1951234667628
+Orchards,Pacific Northwest,92.57372587520352
+Hermiston,Pacific Northwest,488.2248002286652
+Concord,Pacific Southwest,399.2985944548697
+San Francisco Plant 31,Pacific Southwest,465.3682876210124
+San Francisco Plant 32,Pacific Southwest,869.9402239427344
+Bayonne,Eastern,188.2458647644376
+San Francisco Plant 30,Pacific Southwest,422.3106987957797
+"Atlanta, GA",South Eastern,52.82457404898903
+Burnsville,North Central,39.17102663203549
+South Plainfield,Eastern,169.28995737383025
+RBWest,Pacific Northwest,521.7627101793282
+Foster Road,Pacific Northwest,103.14420818472168
+Long Island City,Eastern,200.1377583357153
+Mt. Holly,Eastern,143.99318975480634
+San Carlos,Pacific Southwest,486.2828861520872
+Queenstown,Eastern,37.47828302285409
+Sterling RM (Plant 1),Eastern,67.20922862788473
+Mission Valley,Pacific Southwest,480.5720978786336
+Dulles,Eastern,67.20475474418085
+Apple Valley,North Central,84.05476779300832
+Maple Grove,North Central,170.32920327587706
+Boardman,Pacific Northwest,549.7712726956393
+Englishtown,Eastern,289.5738004399319
+Elk River,North Central,150.1464575540284
+Austin Plant 2/9,South Central,114.86621844979928
+Philadelphia,Eastern,108.51429778667033
+Bannock,Rocky Mountains,85.08289112306907
+Salinas,Pacific Southwest,551.4983782171574
+Berkeley,Pacific Southwest,452.0135583531137
+Union City,Pacific Southwest,883.3965476530751
+Chalco Plant (1&2),North Central,60.40140678787577
+Waltham,Eastern,399.0217107634185
+Inglewood,Pacific Southwest,607.5244510171872
+Gainesville,Eastern,122.16219071172034
+Atlanta,South Eastern,139.51290591174023
+Centreville RM,Eastern,127.1911466812482
+South,South Eastern,101.97391477251546
+Hayward,Pacific Southwest,879.1759354766551
+Armour Drive 301,South Eastern,192.18698348391268
+Green,South Central,64.57914424546709
+Sullivan,Pacific Northwest,656.1275429679248
+Redmond,Pacific Northwest,864.7132986193097
+Navigation RM,South Central,143.58084680676552
+Fontana RM,Pacific Southwest,566.7947730125393
+Santa Cruz,Pacific Southwest,927.2028284886974
+Orange,Pacific Southwest,604.4895422968422
+Los Angeles,Pacific Southwest,620.0326842059478
+Bridgeport,Eastern,254.3956528763344
+Ham Lake,North Central,36.1645146457554
+Sterling RM (,Eastern,67.20922862788473
+Kingston,Eastern,155.71265239166368
+CTI Ready Mix West Des Moines,North Central,128.41139846148113
+Bend,Pacific Northwest,782.3268544869325
+Buckhead,South Eastern,49.9288528216536
+Glenwood 317,South Eastern,71.35415760498093
+Jarvis,Great Lakes Midwest,72.03505784980179
+Boston Sand & Gravel,Eastern,56.15637466290529
+Carroll Canyon,Pacific Southwest,483.4028235177154
+Palomar Escondido,Pacific Southwest,491.3238967527061
+19th Avenue,Pacific Southwest,189.9097145413648
+Pleasanton,Pacific Southwest,470.1541004386892
+Monterey-Seaside,Pacific Southwest,559.4256651795146
+Sandwich,Eastern,118.71369629786123
+Sun City,Pacific Southwest,287.9773074676576
+Orleans,Eastern,145.4595672760262
+Franklin,Rocky Mountains,86.4313942361465
+Golden,Rocky Mountains,91.21963040749624
+Denver,Rocky Mountains,85.55954614935315
+Perkins,Pacific Southwest,379.6296618489567
+Carver,Eastern,107.84638423204544
+"Colonie, NY",Eastern,146.9199174817006
+"Pleasant Valley, NY",Eastern,257.7838119974648
+Mira Mar,Pacific Southwest,485.7977804565848
+Spotsylvania,Eastern,101.10772117762562
+Edsall Road,Eastern,90.5312736898356
+Dennis,Eastern,140.57464550685376
+MINNEAPOLIS READY-MIX,North Central,32.448146445126575
+West Sacramento Terminal,Pacific Southwest,383.9645444716468
+Hollywood,Pacific Southwest,567.9133682130563
+Arrowood,South Eastern,66.87803695925038
+South Plant,South Central,70.43228901288727
+Quivas,Rocky Mountains,87.26353660506793
+"Yakima, WA",Pacific Northwest,631.6771471534915
+DFW RMX,South Central,118.10493742776542
+Chicago Chinatown,Great Lakes Midwest,83.6170728373122
+North Salt Lake,Rocky Mountains,136.0992083711335
+West Jordan,Rocky Mountains,126.1934706152833
+Lafayette,South Eastern,111.8639939354021
+New Albany,Great Lakes Midwest,108.25835435644426
+Minneapolis,North Central,97.7447897896032
+Davenport RK,South Eastern,130.6777933811376
+Front Ave,Pacific Northwest,819.4219990803684
+Sumner,Pacific Northwest,885.922738513925
+Lytle Creek RM (DUAL),Pacific Southwest,557.7685883654169
+Corona RM,Pacific Southwest,571.4804205450682
+Lithia Springs,South Eastern,153.0606335516423
+Gardena,Pacific Southwest,567.0957659661725
+Columbus,South Eastern,166.76948314215767
+San Tan,Pacific Southwest,396.6126486634273
+Hwy 101,South Eastern,131.93364981918054
+CTI Ready Mix Elkhart,North Central,150.47416953533747
+Kentucky Avenue (155),South Eastern,49.5503746877602
+Buda Ready Mix,South Central,131.57660904470157
+College Park,South Eastern,61.54665887879504
+Georgetown Plant,South Central,94.57926852001442
+Ramirez Ln plant,South Central,93.4582499658245
+Houser,Pacific Northwest,85.35505238172169
+Monticello,North Central,59.39360234630346
+Buffalo,North Central,19.46375532827122
+Volente Plant,South Central,88.18497023624592
+Perris RM,Pacific Southwest,506.7417077808294
+Montgomery - Wares Ferry,South Eastern,82.24073222563287
+Oak HIll Plant,South Central,122.79928417860738
+Manor Plant,South Central,65.44682913492488
+Round Rock,South Central,87.77877887829794
+Liberty,South Central,36.79179042340338
+Round Rock Plant,South Central,96.72387438328757
+Kings Mountain,South Eastern,42.973268544869335
+Maspeth,Eastern,201.143636521804
+State College,Eastern,106.82944561124437
+Springfield RM (,Eastern,90.3589670299626
+Sherman St.,South Central,135.9313755949644
+West Haven,Rocky Mountains,126.2381473150484
+Keasbey NJ,Eastern,171.98603154088013
+Montrose,Rocky Mountains,181.8497644997328
+Bellevue,Pacific Northwest,96.57853530018518
+Delta,Rocky Mountains,153.6816334646501
+Compton,Pacific Southwest,564.851243366846
+Wapato,Pacific Northwest,169.0088483477699
+MAPLE GROVE READY-MIX,North Central,34.72013371941293
+Whitestown,Great Lakes Midwest,75.78870841462961
+Trenton NJ,Eastern,269.03252264903625
+Ragsdale,South Eastern,100.4088011234419
+Gypsum,Rocky Mountains,138.95000434960917
+Sundial (Oregon),Pacific Northwest,104.17568692756038
+Richard Street,South Eastern,87.69346440155593
+Redlands RM (DUAL),Pacific Southwest,503.38641927746784
+Woodinville,Pacific Northwest,115.92298706301963
+Doraville,South Eastern,53.70959523779935
+Miramar,Pacific Southwest,481.5344178358831
+Richland,Pacific Northwest,228.71382057240857
+Hospital,Pacific Northwest,242.12807734847829
+Irondale,South Eastern,34.50445524252178
+Irvine Plant,Pacific Southwest,545.6096287919272
+Linnton (Oregon),Pacific Northwest,823.8901661550698
+Chattanooga Jersey,South Eastern,170.75882038599676
+Telluride,Rocky Mountains,318.02067928467574
+Powers,Rocky Mountains,196.39119142008528
+Woody Creek,Rocky Mountains,219.9089688940808
+Fairfield Portable,Pacific Southwest,686.1102688058459
+Crested Butte,Rocky Mountains,229.46276113189256
+Minturn,Rocky Mountains,121.89034013943603
+Maricopa,Pacific Southwest,253.78788820261724
+Gunnison,Rocky Mountains,161.73300856251632
+Rifle,Rocky Mountains,113.19124610088608
+Federal Way,Pacific Northwest,734.6631538394622
+American Fork,Rocky Mountains,100.44987386133448
+Leesburg RM,Eastern,74.39571501360807
+"Pittsfield, MA",Eastern,192.973330682143
+Seneca,South Eastern,95.53307567077188
+Bode B,Pacific Southwest,422.2413535983695
+7th Street,Pacific Southwest,565.5891856288914
+Plant #4,North Central,7.561981930480818
+Ft Walton,South Eastern,127.59218064548202
+Prineville,Pacific Northwest,433.30738066536594
+"Denver, CO",Rocky Mountains,78.4217132489095
+East Orlando,South Eastern,125.06493345097992
+Morgan Road Plant,Great Lakes Midwest,40.64063529148595
+Red Oak 329,South Eastern,173.97560490635917
+Greeneville,South Eastern,114.69229622081102
+Steamboat,Rocky Mountains,156.83162041582264
+43rd Ave,Pacific Southwest,233.28414132501524
+Higley,Pacific Southwest,210.8694247331204
+Navarre,South Eastern,270.9173947083898
+Huntsville (Dual),South Eastern,135.3997912187605
+Chantilly,Eastern,72.07787043135696
+Rockville East,Eastern,99.8206096909292
+Hillsboro,Pacific Northwest,567.212335491568
+Brewster Ready Mix,Eastern,212.2941081437111
+Childs Road,North Central,60.39916984602384
+YD 32 PM,Great Lakes Midwest,59.10988355474915
+Columbus - Smith Rd (Vulcan Quarry),South Eastern,96.30022245143972
+Lawrenceville,South Eastern,69.25242646053663
+Niceville (Villa Tasso),South Eastern,230.934420321374
+43rd Avenue Plant 147,Pacific Southwest,193.5950762424348
+Pasco,Pacific Northwest,238.589670299626
+McDuffie Rd,South Eastern,68.23356158425193
+Fitchburg 1-2,Great Lakes Midwest,112.00268433022232
+Linnton,Pacific Northwest,823.8901661550698
+Paramount,Pacific Southwest,591.5184485565512
+Bode C,Pacific Southwest,465.41924018541766
+Maynardville,South Eastern,105.07742304298657
+EMPIRE READY-MIX,North Central,80.28098475151305
+"Hudson, MA",Eastern,390.85488461108287
+Dublin,Great Lakes Midwest,124.9732188350504
+Enterprise,South Eastern,220.1330359029168
+Westside,South Eastern,103.3196838455516
+Brooklyn (B),Eastern,199.80687735344927
+Adelanto,Pacific Southwest,513.7092845514311
+Kent,Pacific Northwest,76.49564417711609
+Dalton,South Eastern,54.625995749810485
+Pima,Pacific Southwest,81.23218213677657
+Plant 3,South Central,119.21296929175936
+Atmore,South Eastern,48.591720829656886
+South St Paul,North Central,21.88804106031044
+Apex,Pacific Southwest,241.20241838269104
+French Camp,Pacific Southwest,390.31863993935406
+Andalusia,South Eastern,201.83976039867275
+Plant 2 Franklin,Rocky Mountains,76.4903003715809
+Dothan,South Eastern,171.9715535561162
+Cardi Materials Warwick,Eastern,369.7978674487678
+Boones Creek,South Eastern,139.65165844383412
+Stafford RM,Eastern,158.05821019796934
+Bryan Park,Eastern,142.73118172667057
+Monroe,South Eastern,177.05040575639703
+TSMC,Pacific Southwest,218.82703468502612
+Winfield,South Eastern,122.1354716840444
+Frederick,Eastern,47.59404476369195
+Alexander City,South Eastern,42.69222165608262
+Cullman,South Eastern,91.10784545217294
+1 Lackey Dam Rd.,Eastern,98.06684727900878
+Smyrna 330,South Eastern,84.84509177675321
+South Fresno,Pacific Southwest,504.96420893036895
+New Tazewell,South Eastern,82.04680179452447
+Brooklyn,Eastern,7.080666608671879
+Seagrove,South Eastern,240.9975517914176
+Drake,Rocky Mountains,26.521679694781717
+Russellville,South Eastern,90.03224924503213
+Plymouth,Eastern,95.22443983247793
+Kirby Road,Eastern,94.46829134924876
+Springfield RM (Plant 1),Eastern,53.07436588912225
+Trinity,South Eastern,100.03305702958978
+Tuscumbia (Dual),South Eastern,155.26389700125517
+Rialto,Pacific Southwest,541.6439658493545
+Lithonia,South Eastern,62.683833124137855
+Black River,Pacific Northwest,874.6318366535351
+Troy,South Eastern,219.37409124237263
+Cantonment (Dual),South Eastern,68.25388047274038
+Panama City Beach - #2,South Eastern,242.94773012539304
+Jessup,Eastern,18.40586824412492
+NEWPORT READY-MIX,North Central,20.9164626492848
+Baker Flats,Pacific Northwest,763.468564753253
+YD 08,Great Lakes Midwest,72.07954813774592
+Walla Walla,Pacific Northwest,493.75464476120646
+Lincoln,Pacific Southwest,322.4262741247965
+Quincy,Pacific Northwest,727.898206718282
+San Juan Capistrano,Pacific Southwest,597.4038425690035
+Prosser,Pacific Northwest,211.15419985832705
+Danbury,Eastern,255.37400425018956
+Coolidge,Pacific Southwest,202.01070003852516
+North Hollywood,Pacific Southwest,599.1561758236296
+Southampton,Eastern,129.2713161917308
+Stockbridge,South Eastern,54.42485739495695
+Martinez,Pacific Southwest,396.2842531721078
+One,Eastern,83.36125368163347
+Colville,Pacific Northwest,422.4331713621733
+Tacoma,Pacific Northwest,886.4683037767035
+Demopolis,South Eastern,113.4568208085302
+Mineral,Eastern,121.21925758385426
+Ben Hill,South Eastern,75.73029937738453
+Dallas,South Eastern,25.866007183068835
+Hanover,Eastern,82.06370313296134
+FARGO READY-MIX WET,North Central,145.4636683360881
+Katy RM (JV),South Central,65.96213354542856
+Chambers,Rocky Mountains,88.84834776989327
+Rochester,Eastern,257.24713236482035
+Rosenfeld Concrete,Eastern,404.7018653609555
+Jamaica,Eastern,210.8824114233164
+Pearland #35 LLC,South Central,152.0669964084656
+Airway Heights,Pacific Northwest,732.5037593050569
+Stamford,Eastern,227.70011308983808
+Tumalo (Oregon),North Central,51.81708029378503
+Woodstock,South Eastern,107.13311046764512
+ALPHARETTA - NORTH FULTON - RMUSA,South Eastern,190.1961673729604
+Santa Paula RM,Pacific Southwest,666.6371307492514
+Wyoming Road,Pacific Northwest,645.6930170131856
+Daphne,South Eastern,243.62173313283708
+Corvallis (Oregon),Pacific Northwest,908.395864143065
+Downtown Miami,South Eastern,347.0748878422211
+Puyallup,Pacific Northwest,884.7816496203413
+Arvada,Rocky Mountains,126.34204083661623
+Summit View,Rocky Mountains,211.1118843749612
+Oxnard RM,Pacific Southwest,632.0963873389092
+Dakota concrete,Eastern,226.74214274174508
+Johns Creek,South Eastern,96.04260131482472
+McIntosh,South Eastern,267.4175749064834
+Plant #3,North Central,77.22985820274151
+"Carlisle, IA",North Central,73.75862154672102
+North Bonneville,Pacific Northwest,124.31909975517917
+72 Hartford Ave.,Eastern,84.33972933003591
+East Boise Plant,Pacific Northwest,296.9665204369493
+Fruitland (Idaho),Pacific Northwest,773.1663290541464
+Dixon 2,North Central,79.87603613903836
+Hillsboro (Oregon),Pacific Northwest,917.3983744889208
+Post Falls,Pacific Northwest,646.7875650887942
+Vestal,Eastern,274.6766997651211
+Rockville,Eastern,160.13726123752593
+Mid-Town Miami,South Eastern,259.90766401133385
+Portable Rexcon 1,South Eastern,21.794897287086638
+Mt. Vernon,Eastern,217.95114767544464
+Naples Wiggings Pass RM/BM,South Eastern,140.4650974933824
+East Granby Concrete,Eastern,148.2985571725055
+Mattawa Plant 27,Pacific Northwest,623.8576062236693
+Mattawa,Pacific Northwest,614.8939316738539
+Norwich Concrete,Eastern,151.5970522077373
+Columbia,Pacific Southwest,248.05715386431703
+Pittsburgh,Eastern,48.608187207178105
+Crestview,South Eastern,125.55780630569056
+Ephrata,Pacific Northwest,241.84460710601863
+Manassas,Eastern,104.17382280935044
+Sarival,Pacific Southwest,253.3610051325388
+South Miami Plant 1052,South Eastern,357.8774528688779
+Alpharetta,South Eastern,191.50707743547045
+"Greer, SC",South Eastern,219.0257496862068
+YD 21 PM,Great Lakes Midwest,181.5692768464091
+CTI Ready Mix Carlisle,North Central,161.80465283905204
+Wheatland (Oregon),Pacific Northwest,857.5293598618068
+Ehren Cut-Off,South Eastern,190.63125256316252
+Troutdale,Pacific Northwest,882.6892390669468
+Woodburn,Pacific Northwest,927.9444989871624
+Eugene (2),Pacific Northwest,209.68316204158228
+Modesto,Pacific Southwest,857.8944784818622
+UMore,North Central,79.1326879341842
+Laurel,Eastern,88.21268346030051
+Issaquah,Pacific Northwest,758.194787925485
+Anaheim,Pacific Southwest,600.378726682988
+Portsmouth Virginia,Eastern,152.89969801285
+Port Charlotte,South Eastern,78.87960281854674
+Grimes 1,North Central,93.03086979755676
+05-Navassa,South Eastern,114.63457069357624
+Intel,Pacific Southwest,169.71224228565748
+State Rd 80 (WPB FL) RM,South Eastern,163.05435768700215
+Alabaster - Pelham,South Eastern,31.346701132141128
+"Hudson, NY",Eastern,308.8310114705407
+Campostella,Eastern,233.73718418730655
+Chase,Great Lakes Midwest,16.588415126697903
+Alexandria,Great Lakes Midwest,106.72499285421353
+Wheatland,Pacific Northwest,531.53385860042
+Olathe,South Central,40.04859134800602
+56th Street,South Eastern,16.432139883430477
+Savannah East,South Eastern,106.31246349435172
+Batch Plant No. 3,South Central,330.1814408391017
+Dallesport,Pacific Northwest,178.56537462562295
+Pomona,Pacific Southwest,586.2258441348628
+Ozinga Evanston,Great Lakes Midwest,69.6706724495756
+Southury,Eastern,185.23854499359987
+Helena,Pacific Northwest,485.1695726198318
+"New Carlisle - Portable 31480 Edison Rd, New Carlisle, IN 46552",Great Lakes Midwest,24.97241105049275
+Fruitland,Pacific Northwest,419.7997315669778
+KCK,South Central,40.00024854909466
+Los Lunas,Rocky Mountains,218.83853008065415
+Hillsboro Plant,Pacific Northwest,570.9623199572496
+Linnton (wet),Pacific Northwest,616.005070401531
+Woodburn (Oregon),Pacific Northwest,579.0754595051388
+East Plant/East Naples/East Trail,South Eastern,260.89073781798754
+Bode,Pacific Southwest,702.4869201038936
+Bradenton,South Eastern,131.327252165484
+Eastport,South Eastern,144.27560366361365
+Coffee Lake (wet),Pacific Northwest,115.85848857295538
+Odessa,South Eastern,48.00856251631104
+Hillsboro (wet),Pacific Northwest,116.03346713559596
+Flagstaff,Pacific Southwest,434.0001491294569
+St Augustine,South Eastern,208.96939117899265
+Arkhola - Southside,South Central,20.45161370499708
+LANCASTER READY-MIX - GENESEE,Eastern,239.06390197223703
+Stafford,Eastern,83.75893223308935
+Valkaria,South Eastern,67.48194912200033
+Camp Verde,Pacific Southwest,237.33368958703568
+SMG - Rogers,South Central,81.94315682205128
+SMG - Siloam Springs,South Central,46.91699702983832
+"Omaha, NE #5 Plant",North Central,11.06217455602918
+Ellington,South Central,46.14425789454062
+Big Bend,South Eastern,1.562503883579604
+Reno,Pacific Southwest,201.31743447624493
+Kyle Canyon,Pacific Southwest,399.004188052245
+West Nashville,South Eastern,149.99739023450607
+37 Leeds Plant,South Eastern,191.95098611853308
+Chicago Northside,Great Lakes Midwest,105.9040351945518
+Losee,Pacific Southwest,434.6873252389178
+Plant 12 Aurora,Rocky Mountains,88.44979929660606
+East,Great Lakes Midwest,69.55546994420072
+JACKSON,South Eastern,202.6171598294953
+423331 - Sioux Falls West (South Dakota),North Central,132.23868169560194
+Pegasus,Great Lakes Midwest,177.16076155442607
+Gary,Great Lakes Midwest,27.50543701144569
+"YD 130 | 19515 NE Frontage Rd Shorewood, Illinois",Great Lakes Midwest,87.80232890501696
+Hutto Plant,South Central,222.30361514658185
+Post Road (105),Great Lakes Midwest,65.3554252053637
+JPC Middlebury,Eastern,130.87476853865562
+Lakeshore,South Eastern,26.2874843103384
+Wiggings Pass (North Naples),South Eastern,140.4650974933824
+Virginia,Eastern,85.44937676314515
+Finchley,Eastern,27.374265226738917
+Titan,Great Lakes Midwest,45.5871350988604
+Vicksburg,South Eastern,162.00367852660096
+Orlando - Division Ave,South Eastern,97.2205997489654
+Downtown Louisville,South Eastern,20.001304882746968
+Plant 7,Eastern,438.0406874867959
+Springfield,Eastern,132.99315247244212
+Douglasville,South Eastern,144.91549330781564
+"Lebanon, IN (112)",Great Lakes Midwest,70.87520349957126
+Boro Sand & Stone (Easton),Eastern,87.5139498179378
+Cheyenne Facility Plant,Rocky Mountains,29.44523842071905
+Stuart,South Eastern,124.75505486721264
+Plant 20,Eastern,73.2586650428126
+Round Rock Plant 3-4,South Central,105.13614276659996
+"YD 24 |1200 N Butterfield Rd Vernon Hills, Illinois",Great Lakes Midwest,49.69869635999852
+Ardmore Ave.,Great Lakes Midwest,93.92111051735496
+Montgomery 255,Great Lakes Midwest,108.41400822697504
+Kienstra Material Co.,South Central,43.4287968981073
+161030 - Medford (Oregon),Pacific Northwest,790.1020915406316
+Point South (623),Rocky Mountains,112.64319534716095
+Hebron,South Eastern,18.32148582648788
+TFM Concrete Plant #1,South Central,229.18457255769448
+Plant #1,South Central,212.0823443150608
+Auburndale,South Eastern,51.34508556302584
+Empire Transit,Eastern,206.32737644003132
+YD 33,Great Lakes Midwest,57.72608647023003
+Hermitage,Eastern,88.61123193358769
+PLANT 142,South Eastern,50.17528924900892
+Madison Plant No. 2,Great Lakes Midwest,111.69889519927423
+Six Mile Plant,South Eastern,131.78700585333118
+Plant 4,Great Lakes Midwest,89.60375060583841
+Salina,South Central,136.71163334037556
+Evans Rd,South Central,75.23326332533834
+Plant 13 Sedalia,Rocky Mountains,100.34685026159794
+East 96th Street (123),Great Lakes Midwest,114.46816707470144
+South County Concrete Plant,Pacific Southwest,403.8474157107883
+Plant B,Pacific Southwest,511.6024581505462
+Yuma,Pacific Southwest,609.6639616240197
+Center St,North Central,79.79128089775934
+Reno Plant,Pacific Southwest,666.5673505909255
+Plant 31,Great Lakes Midwest,138.88736997775487
+Woodway,South Central,134.85174046503536
+"Council Bluffs, IA",North Central,7.561981930480818
+Orlando Taft,South Eastern,20.04101060061889
+Pavilion,Eastern,134.25683820696685
+260930 - Tumalo (Oregon),Pacific Northwest,267.23743895012865
+Olive Branch,South Eastern,69.27796488001293
+Seat Pleasant,Eastern,38.05740241341172
+YD 36,Great Lakes Midwest,49.67359290143786
+Boone,South Eastern,76.44282749450086
+Leesburg,Eastern,104.01760970335668
+State Ave  Plant  (1),North Central,56.07329712801521
+Elton Road,South Eastern,199.27958044912825
+Mission,South Central,329.2209228627885
+Norfolk,Eastern,197.17057924366512
+Rosenberg Plant 4373,South Central,125.50915282041086
+Stuart Plant 1090,South Eastern,221.080940012676
+Portable H,South Central,132.22407943629065
+Ocala West,South Eastern,108.51429778667033
+Snoqualmie Ready Mix and Aggregate Plant,Pacific Northwest,707.079175314104
+Oceanside,Pacific Southwest,588.2896715423714
+Lacey,Pacific Northwest,37.26502789963588
+North Chicago,Great Lakes Midwest,47.86732449327054
+Starlight,Eastern,267.12813948575194
+Sparrows Point,Eastern,75.70979407707507
+Fairfield,Great Lakes Midwest,27.36376402748953
+Huntington,Eastern,40.110728621671
+Metairie,South Central,108.5691649993165
+Fountain Valley,Pacific Southwest,553.4705531460103
+Reservoir,South Eastern,101.40790634670113
+West Plant,Pacific Southwest,259.4371605751426
+3,South Eastern,77.08824735605901
+Ozinga Northside,Great Lakes Midwest,61.02141250450495
+YD 14 PM,Great Lakes Midwest,84.49668808331366
+Massena ReadyMix,Eastern,432.9298345905776
+Lemont,Great Lakes Midwest,97.12894727030957
+Los Banos,Pacific Southwest,841.0552773186523
+Dunkirk,Eastern,209.61878782606536
+Plant 3 Brighton,Rocky Mountains,95.25917456845664
+Montgomery - Metro,South Eastern,116.0671455379224
+Sloan,Pacific Southwest,337.91436240943494
+Tracy Clark Portable Plant 61,Pacific Southwest,188.99443250027963
+Erie Strayer MC11C 9563,South Eastern,131.75811202107698
+Dulles Plant V05,Eastern,181.5785353001852
+Rio Rancho,Rocky Mountains,276.8114258018815
+Truro Station,Great Lakes Midwest,132.1912088185219
+Colorado Springs Ready Mix Plant 2,Rocky Mountains,151.7292803260964
+Sanborn,Eastern,273.52703592777164
+241930 - Stayton (Oregon),Pacific Northwest,875.8925397989237
+Sky River,Pacific Northwest,748.000422533461
+Kansas City Plant 2,South Central,10.48554065641816
+Eldridge,North Central,31.94943268669144
+Builders,North Central,31.967887456969937
+Ogden (607),Rocky Mountains,126.00525681335206
+Chico Plant,Pacific Southwest,406.8894080803311
+Otay Plant,Pacific Southwest,575.9649297227435
+"Roscoe | 4896 McCurry Road Roscoe, IL 61073",Great Lakes Midwest,88.28252575589994
+Council Bluffs,North Central,10.748194912200033
+La Porte Plant 4365,South Central,123.42948040811764
+Charlestown,Great Lakes Midwest,34.9496066710577
+Rex Model S Single,Rocky Mountains,201.15668534927363
+Orchards Ready Mix Plant,Pacific Northwest,544.0252525880175
+Red Oak Plant,South Eastern,61.66459542421117
+Colorado Springs Ready Mix Plant 3,Rocky Mountains,45.83232878074242
+Front Avenue Facility,Pacific Northwest,100.37176730833758
+Alton,South Eastern,35.283967340648964
+South Miami,South Eastern,358.392508730287
+Owasso,South Central,89.97029838318814
+Tomball Plant 4372,South Central,130.03467259870507
+CANAL PLANT,South Eastern,273.1351361427666
+Pier 92 Amador Plant,Pacific Southwest,869.8942423602223
+Orlando,South Eastern,115.57905725328396
+Leavenworth,South Central,41.104427902121365
+MMC,Pacific Southwest,890.4039544160961
+JC Howard Concrete Supply Co. LLC,Eastern,66.31811798625523
+Ashland City,South Eastern,137.97823952676254
+1 NEW Cadman,Pacific Northwest,965.7253283954911
+Fort Myers Plant,South Eastern,297.9701616811861
+Webster Plant 4371A,South Central,164.2802018218649
+Plant 35,Great Lakes Midwest,172.45460872158773
+Hanover Plant,Eastern,59.553978649632775
+#143 Camey A,South Central,145.02976375408554
+South Bend Plant 10,Great Lakes Midwest,35.929760025849106
+321532 - St. Joseph (Minnesota),North Central,27.91746927311817
+6 Plant,Great Lakes Midwest,114.13647830787777
+Harlingen Plant No. 4208,South Central,310.16373171610724
+Santa Fe,Rocky Mountains,314.2519293623473
+Grimes,North Central,92.79549380491382
+Ellington Plant 4360,South Central,43.73395304907602
+33 Montevallo,South Eastern,57.96997526936508
+F&F Concrete,Eastern,173.30843699901826
+Plant 11 (Goodyear),Pacific Southwest,267.4591447425653
+112 - St. Augustine,South Eastern,32.46890029453068
+111 - Green Cove Spring,South Eastern,17.323623348701954
+Frankfort,South Eastern,44.566592516186766
+Crawfordsville,Great Lakes Midwest,98.12848745448446
+Westfield,Great Lakes Midwest,84.81762710179328
+Portable Plant #420,Great Lakes Midwest,56.48346527147776
+Sterling RM (Plant 2),Eastern,86.06975530341631
+Tumalo,North Central,51.81708029378503
+Lebanon (#847),South Eastern,96.47215628767071
+"SWOPE, Charles City",Eastern,135.69320342500654
+TPAC,Rocky Mountains,82.27416207886463
+Seattle,Pacific Northwest,88.50851902021947
+Moorpark,Pacific Southwest,605.2451315446084
+Logan,Eastern,94.35339953024223
+Antioch,Pacific Southwest,389.44169659612015
+Brooklyn (A),Eastern,199.0186038997353
+West,Pacific Southwest,586.6377521219879
+Neville Island,Eastern,45.5765096250637
+Mid Cities Soutlake,South Central,119.88796649558205
+Boise (Idaho),Pacific Northwest,294.08005766339
+Apache Junction,Pacific Southwest,191.2830725639082
+River Road,Rocky Mountains,107.08377347235513
+Yard 32,Great Lakes Midwest,59.10988355474915
+Oxford,Eastern,87.60740427752992
+North Arlington NJ,Eastern,184.86596990070464
+Auburn (Portable),South Eastern,91.41517640771994
+Visco Dr. - Nashville,South Eastern,39.04749773198951
+Main Costilla,Rocky Mountains,17.836193719164378
+Santa Barbara,Pacific Southwest,482.5333366473213
+College Point,Eastern,207.43752097132986
+Pleasanton (wet),Pacific Southwest,427.0679284675706
+Spangler,South Central,118.89234095964807
+"Arizona, USA",Pacific Southwest,199.55814184696834
+Northampton,Eastern,106.07267575527857
+Milton,South Eastern,94.46853989834342
+West Knoxville,South Eastern,26.918923285321934
+Florence - Industrial,South Eastern,116.60283097418818
+HARVEST - HIGHWAY 53 - LAFARGE,South Eastern,117.76492226627064
+Freightliner Rd,South Eastern,38.62887891930854
+Plant #5,North Central,11.055960828662682
+BRONX,Eastern,207.56974908968894
+Sundial (wet),Pacific Northwest,103.87494252302187
+I-220,South Eastern,43.293710465159634
+Otay Mesa,Pacific Southwest,490.2935364807934
+Hartford Concrete,Eastern,143.14110132103846
+Southeastern Concrete,Eastern,74.97166540320877
+Santa Ana,Pacific Southwest,547.8544620776219
+Dover,Pacific Northwest,429.63749114543856
+Del Camino,Rocky Mountains,53.09139150210646
+Getchell,Pacific Northwest,132.52575589993415
+Fontana,Pacific Southwest,517.4636807635428
+Bladensburg,Eastern,35.3415685933364
+Eugene (Oregon),Pacific Northwest,209.68316204158228
+Seattle (Duwamish) Ready Mix Plant,Pacific Northwest,87.94499608535176
+The Dalles,Pacific Northwest,171.4232542532964
+Pendleton,Pacific Northwest,303.17925360706874
+Cemco 10 Moorsville RM,South Eastern,97.4606981744069
+Beck Street (608),Rocky Mountains,134.742192451564
+Pacific,Pacific Northwest,70.208656964967
+Buckeye,Pacific Southwest,216.32694147911565
+Sweetwater,South Eastern,233.95404327239737
+South Hill,Eastern,38.183106118035965
+Dawsonville - Easy Street,South Eastern,64.34581878285509
+Monroeville,South Eastern,77.15523133706986
+Hwy 16,South Central,21.276796699268022
+Pooler,South Eastern,105.81362546136927
+"Sheffield, MA",Eastern,189.11398461481105
+Enumclaw,Pacific Northwest,83.70990592416769
+Charleston,South Eastern,14.929163508021922
+Butler,Pacific Northwest,161.5426820932805
+Shirlington,Eastern,47.058359327426146
+Summerville,South Eastern,24.210545938086423
+Atlanta Div Portable Plant 358,South Eastern,50.79715908384804
+Blythewood,South Eastern,43.347894167795495
+Harwinton,Eastern,170.63516721140343
+Nampa (Idaho),Pacific Northwest,275.25581915567875
+Wenatchee,Pacific Northwest,220.40594280885333
+Athens,South Eastern,109.01487566331541
+WW White,South Central,17.269626057887084
+Boise,Pacific Northwest,294.08005766339
+Charlotte Graham Street,South Eastern,31.793965227981662
+Durham,South Eastern,42.84240744653088
+Redmond (Oregon),Pacific Northwest,235.49200293287933
+Bushwick,Eastern,198.93875750307578
+Coffee Lake (Oregon),Pacific Northwest,115.84208433270781
+West Street,South Eastern,64.77034063653423
+Elk,Pacific Northwest,379.02649533349074
+Sunnyside,Pacific Northwest,196.75146333279483
+Madras,Pacific Northwest,209.6742142741745
+Hood River,Pacific Northwest,164.18065790945357
+Fredrickson,Pacific Northwest,46.522798165707684
+Shelton,Pacific Northwest,50.24277032820908
+Canyon,Pacific Northwest,61.60525432786112
+Dumfries RM,Eastern,71.61053599612264
+Plant #7,North Central,7.400922117141189
+Boston Concrete,Eastern,45.372512955621566
+Othello,Pacific Northwest,242.469583804541
+Berkshire Concrete Corp,Eastern,132.2985198901413
+MARIETTA - OWENBY DRIVE,South Eastern,33.8377844333702
+El Cajon,Pacific Southwest,469.35886761032475
+Buford (RMUSA),South Eastern,80.08879416406727
+84 Tyrone,South Eastern,72.2298582027415
+Thomasville,South Eastern,75.67493506654903
+Greenville,South Eastern,55.07176855108305
+Marietta,South Eastern,22.460884586227895
+Dixon 3,North Central,78.78658331987026
+Industrial Park Rd (Cartersville - RMUSA),South Eastern,16.058757005977608
+Bremerton,Pacific Northwest,66.03421278287995
+Harvest,South Eastern,117.76492226627064
+Nampa,Pacific Northwest,275.25581915567875
+SCM Maiden,South Eastern,19.517006971802108
+GRAND FORKS READY-MIX,North Central,180.5787465669156
+Old Saybrook Concrete,Eastern,162.07631699951534
+Downtown - Marietta Blvd,South Eastern,48.48049510979657
+Charlottesville,Eastern,104.62456659251619
+Tyrone,South Eastern,71.80981023276622
+Kenosha 712,Great Lakes Midwest,20.98170678663303
+New Smyrna,South Eastern,65.55109548013472
+Baymeadows,South Eastern,16.425739744242982
+Lakeshore (Dual) (Lafarge),South Eastern,27.095144593435823
+Redlands,Pacific Southwest,502.9461766935514
+Tracy,Pacific Southwest,407.2508606012403
+Riverside,Pacific Southwest,510.1432885530715
+Central Avenue - 351,South Central,8.578858414008227
+Jeffco,Rocky Mountains,82.24427405023178
+Moreno Valley,Pacific Southwest,503.97846322094773
+Brighton,Rocky Mountains,72.9252364323263
+Waters Avenue,South Eastern,25.581169920588568
+Sundial Plant,Pacific Northwest,104.24416220313917
+Lecanto East,South Eastern,19.391427541725182
+Zephyrhills,South Eastern,39.35781127667243
+Meyer Rd Plant 159,Great Lakes Midwest,92.94978065542396
+Oldsmar,South Eastern,32.08998719972163
+"Burlington, MA",Eastern,57.53662992282551
+Vance,South Eastern,64.57001006623834
+Central,Rocky Mountains,76.61637689984715
+Foothill,Pacific Southwest,530.7714963898245
+Brooksville,South Eastern,38.70263586314887
+Schertz RM,South Central,29.77139697018654
+Largo II,South Eastern,36.88891098214175
+Grimes Plant,North Central,95.02473063491867
+Midway,North Central,23.53213118421216
+Plant City  RK,South Eastern,34.33065728808083
+Clear Brook RM,Eastern,97.19183019125855
+2 Plant,Great Lakes Midwest,107.88167820348714
+LaBelle 1,South Eastern,137.04251432264158
+Beaumont,Pacific Southwest,483.3831260019636
+Canton Plant #26,South Eastern,94.78003405122597
+Kenmore,Pacific Northwest,104.42206121764202
+Thousand Palms,Pacific Southwest,446.8862390793742
+Wildwood,South Eastern,49.865099978873324
+78th Street,South Eastern,8.507214137472504
+McMinnville (Oregon),Pacific Northwest,136.2104962282675
+Midtown - Armour Drive,South Eastern,49.73324468415624
+Ocala,South Eastern,108.83212994146669
+Berth 150,South Eastern,217.14336311779985
+Winter Park,South Eastern,144.6241937688742
+Pasadena,Pacific Southwest,614.9425230218599
+McMinnville,Pacific Northwest,136.2104962282675
+Murrieta,Pacific Southwest,518.8807212894727
+Alico Road RM/BM,South Eastern,128.20379783016642
+Lake Forrest,Pacific Southwest,547.3526414555035
+Corona,Pacific Southwest,521.8964295922552
+Sedalia,Rocky Mountains,189.68856798439114
+THEODORE PLANT,South Eastern,247.1317434476245
+Leon,South Central,203.7189158288491
+Orange City,South Eastern,123.98971006748108
+St. Cloud,South Eastern,98.56232989921334
+Port Norfolk,Eastern,155.77795866628557
+Orlando (Atlanta Ave),South Eastern,18.99555097120559
+FARGO READY-MIX DRY,North Central,145.4636683360881
+Leesburg RK,South Eastern,59.361912336734314
+DuPont Ready Mix Plant and Pioneer Aggregate Plant,Pacific Northwest,47.261672486857975
+FOREST LAKE READY-MIX,North Central,24.588961934706155
+Crestline,Pacific Northwest,358.2430064498491
+Cabazon,Pacific Southwest,473.3039631153144
+Ferndale,Pacific Northwest,187.67861359315
+Bessemer - CEMCO #7,South Eastern,33.30961760721787
+San Clemente,Pacific Southwest,532.421365280177
+Four Corners,South Eastern,47.58447562354755
+PORTABLE LRT READY MIX,North Central,28.828960940509774
+Lakeland RK,South Eastern,49.21197509538072
+120 Berkley St.,Eastern,96.88394000024856
+Habersham,South Eastern,68.31856537462563
+Pineview,South Eastern,27.177787167410244
+Palmetto,South Eastern,25.574024134117096
+Lorton,Eastern,59.905178520387246
+Sundial,Pacific Northwest,104.17568692756038
+"Bishop, CA",Pacific Southwest,345.54233412454795
+Best Concrete,Eastern,206.52422732300198
+"YD 19 | 560 Rock Rd Dr. East Dundee, Illinois",Great Lakes Midwest,75.65735021810183
+"Weldon, CA",Pacific Southwest,404.94693476829013
+Hampton,Great Lakes Midwest,28.93086606932034
+"Modesto, CA",Pacific Southwest,404.4104415474667
+Poplar,South Central,18.391452396634644
+Douglas,Pacific Southwest,57.90013297376564
+"Ridgecrest, CA",Pacific Southwest,455.35803497085766
+"Boston, MA",Eastern,59.10130861098339
+Obetz,Great Lakes Midwest,99.95557184932954
+West Vancouver,Pacific Northwest,91.61476133073185
+Opelika,South Eastern,87.97997937042516
+Oceana,Eastern,172.7462189468975
+Delaware,Great Lakes Midwest,112.14093976412691
+Bunnell North,South Eastern,41.930232269128965
+Chalco,North Central,21.160102899325192
+Cochran Mills,Eastern,73.45775286763518
+Temple,South Central,49.025563274385775
+Moncks Corner Plant 373,South Eastern,12.548746691190178
+"Stockton, CA",Pacific Southwest,381.3183043980763
+Owings Mills,Eastern,27.4103048454646
+Wilmington Plant 19 (NCDOT RM 463),South Eastern,115.91789180657909
+Evanston,Great Lakes Midwest,69.66104117215754
+Rockford,South Eastern,40.64666260703146
+Henrico,Eastern,102.76709707084893
+COS Main,Rocky Mountains,15.44987386133446
+Chesterfield,Eastern,84.30356543676291
+Windsor,Rocky Mountains,31.37826686716294
+Spring,South Central,57.48250835746331
+Anacortes,Pacific Northwest,162.86409335503998
+Yakima #25,Pacific Northwest,161.38112518175154
+Delray,South Eastern,180.15608883144645
+Fort Myers,South Eastern,114.42566517951458
+South Lauderdale Plant 1068,South Eastern,203.6823791119341
+Livingston,South Eastern,123.76359252861423
+St. Petersburg,South Eastern,39.70733344103794
+64th Plant,Great Lakes Midwest,49.99428337082283
+Plant 14 Lafayette,Rocky Mountains,68.34714852051152
+Beltsville,Eastern,29.186995911367397
+Tomball,South Central,53.511253060260735
+Roseville,Pacific Southwest,316.97316912523144
+Irving,South Central,125.08866988951993
+BELLE PLAINE READY-MIX,North Central,68.9758534554538
+Batch Plant No. 2,South Central,249.29884300396435
+MRM Littleton Plant,Eastern,51.243553257857265
+Todd,South Central,69.06607677681535
+REXCON Plant 8,Eastern,42.96251879652529
+Orchard Park,Eastern,188.39250873028695
+Prineville (Oregon),Pacific Northwest,239.9317111362422
+260730 - Redmond (Oregon),Pacific Northwest,235.66101631724808
+Freeport,South Eastern,165.69892005418373
+Neyland Drive,South Eastern,40.225434028856554
+Culpeper,Eastern,121.60357662147216
+Card Sound Mine,South Eastern,262.9922825506108
+Clackamas,Pacific Northwest,109.45132787353822
+Harlingen,South Central,209.98440354431008
+Downtown SA RM,South Central,18.425503622603056
+Baytown,South Central,63.285384070488526
+"Sonora, CA",Pacific Southwest,357.6513974672847
+"San Andreas, CA",Pacific Southwest,339.80886574620655
+Eagle Plant,Pacific Northwest,292.5334609218686
+Doraville 312,South Eastern,54.52539550374688
+Grantley,Eastern,17.643257484434614
+Wilsonville,Pacific Northwest,116.30531770788025
+Jeffersonville,Great Lakes Midwest,30.63690705506605
+Prospect Avenue,South Eastern,147.99545155156773
+240830 - Eugene (Oregon),Pacific Northwest,209.68620676799188
+Pompano Beach 1071,South Eastern,195.70084630966733
+Downtown Miami Plant 1055,South Eastern,222.43988218772915
+Central South,South Eastern,44.76661240011433
+Plant 16,Eastern,48.396174829433185
+Yakima #24,Pacific Northwest,161.2269626057887
+Lemoore,Pacific Southwest,532.5742851106666
+SMG - Fayetteville,South Central,36.777933811376094
+Flatiron Dry Batch,Rocky Mountains,78.4188549343209
+Tuscaloosa (Dual),South Eastern,72.52283544807187
+Edinburg,South Central,197.9966321597674
+Miami 401,South Eastern,223.88221258404067
+Everett - Smith Island,Pacific Northwest,123.28004026495334
+Howard,South Central,83.25816794462327
+Tric,Pacific Southwest,185.6675407309829
+Cutten Road,South Central,41.785700970584216
+34th Street,South Eastern,14.266283072563908
+Grissom,South Central,28.72407322256329
+Yard 33,Great Lakes Midwest,60.0640635291486
+Sterling,Eastern,59.834963401145814
+Texas,Eastern,31.91165322430313
+Harwin,South Central,24.63084245715635
+Brewton,South Eastern,84.91338064051102
+PDM Precast,North Central,78.94149154311705
+Old River,Pacific Southwest,581.6580710104763
+Lake Park,South Eastern,156.83895261411513
+Plant 55 South,Rocky Mountains,83.11307741061555
+90 Jenkinsberg,South Eastern,27.812954378813675
+Morgan Ave (A),Eastern,199.0186038997353
+Byram Concrete & Supply LLC,Eastern,222.87086631786946
+Pembroke Pines,South Eastern,218.08132526377273
+SCGA Mobile,South Eastern,62.77859246647695
+Dayton,North Central,27.49847763679521
+Arlington,Pacific Northwest,137.96401009109326
+Humble RM,South Central,49.56230504430388
+Holmes RM (JV),South Central,27.772503013657776
+Ruston,South Central,112.35531335827109
+Bristol,Eastern,132.99048056967453
+Rome,South Eastern,23.03708352492326
+Colton 1,Pacific Southwest,510.74042775299193
+Prescott,Pacific Southwest,247.3807275032001
+National City,Pacific Southwest,483.9116656517579
+Cocoa,South Eastern,30.41756247902867
+Columbus Plant,Great Lakes Midwest,106.95794549318356
+Sunrise Plant 1069,South Eastern,201.41194526948937
+New Castle,Eastern,64.99515329265414
+Naperville 281,Great Lakes Midwest,84.19662718878547
+Arcola Rail Yard,South Central,26.5417500341755
+Sundial Asphalt Plant,Pacific Northwest,104.17568692756038
+Pennington,South Eastern,108.747126151093
+Morristown,South Eastern,78.37386754818746
+Webster,South Central,49.93307815626282
+"Omaha, NE #7 Plant",North Central,7.399057998931239
+Manor Plant 6,South Central,66.1499745237178
+Swan Plant 117,Pacific Southwest,70.331253805908
+Englewood,South Central,37.209104353337395
+Flatiron Wet Batch,Rocky Mountains,78.4188549343209
+Cordelia,Pacific Southwest,377.7229796065468
+Merced,Pacific Southwest,444.360856003082
+Palmomar Oceanside,Pacific Southwest,510.5377359662968
+BUFFALO READY-MIX - HOPKINS,Eastern,211.89705096499188
+Carson City,Pacific Southwest,212.68190686865424
+Monument Street,Eastern,13.012166478183604
+114 - Alta Drive,South Eastern,1.8337330831272447
+Costilla,Rocky Mountains,17.836193719164378
+Bethlehem,Eastern,108.54741695353376
+Hockley,South Central,48.52423975045671
+MidCo - Van Buren,South Central,30.08705432040464
+Chicopee,Eastern,127.46430213627947
+02-Wilmington,South Eastern,118.94807809412555
+#2,South Central,195.07350839474566
+Arkhola - Tahlequah,South Central,21.86399393540209
+Mt Belvieu,South Central,67.86707594417588
+Missouri City RM (JV),South Central,20.478022046304698
+London Q58,Eastern,99.36421141585991
+Tremont,Pacific Southwest,353.0058284762698
+Sierra Vista,Pacific Southwest,66.35943927324244
+81 Peachtree City,South Eastern,70.08991263499323
+Mooresville (149),Great Lakes Midwest,78.71922651521743
+Newberg Ready Mix Plant 2,Pacific Northwest,121.95527359041596
+Arkhola - Fayetteville,South Central,31.66360122783253
+Arkhola - Springdale,South Central,32.22339592628034
+Joliet,Great Lakes Midwest,68.41270334422808
+Northfield,North Central,57.29336249642711
+Waldorf,Eastern,52.14243105869487
+Kingsport,South Eastern,132.38607130873527
+Grand Parkway,South Central,64.43324592690172
+Globe,Pacific Southwest,147.72931760846063
+Mosielee,South Central,44.19339605055489
+MidCo - Jenny Lind,South Central,24.774317422048792
+Brownsville Plant 4279,South Central,227.59827009830119
+Ft. Collins,Rocky Mountains,26.521679694781714
+Ithaca,Eastern,214.4265351013459
+Lodi,Pacific Southwest,366.61246225160625
+MidCo - Poteau,South Central,15.092211714118832
+MidCo - Sallisaw,South Central,26.096909292007908
+SMG - Centerton,South Central,22.490151242124103
+SMG - Huntsville,South Central,55.19939851119093
+Arkhola - Harrison,South Central,74.57361402811091
+Arkhola - Sallisaw,South Central,25.605652006412566
+Arkhola - Stilwell,South Central,39.375396125119615
+Arkhola - Waldron,South Central,58.27357798849218
+SMG - Springdale,South Central,32.07706264679931
+Morgan's Point (La Porte),South Central,54.74983533622479
+Jenna,Eastern,207.56974908968894
+Sterling Ready Mix Plant,Rocky Mountains,45.0688480992208
+63rd Street - 352,South Central,11.922837933562828
+Brooklyn Ready Mix,Eastern,201.99995029018106
+Farmersville,Pacific Southwest,548.2545639827507
+Rosenberg,South Central,11.848583891533176
+Marysville,Pacific Southwest,325.2067307094834
+Rothwell,South Central,20.478022046304698
+80 Fairburn,South Eastern,61.032100115575325
+San Bernardino 1 - Baseline,Pacific Southwest,511.66658381696845
+Jersey Precast (RMC),Eastern,134.29424484571317
+Manchester,Eastern,136.0089229124983
+Durham Plant (NCDOT RM No. 67),South Eastern,44.45070650080157
+South Lauderdale,South Eastern,207.58223868169563
+Irwindale 1,Pacific Southwest,551.2418134141947
+Burlington,Great Lakes Midwest,37.12938223122523
+Sun Valley 1,Pacific Southwest,574.9537698683932
+95,South Central,8.890228292343446
+Plattburgh ReadyMix,Eastern,184.46953409472206
+South Bend,Great Lakes Midwest,37.443299737780706
+Prestress – Spokane Valley (Washington),Pacific Northwest,354.5223507773373
+Temecula,Pacific Southwest,517.8844743808021
+Carol Stream,Great Lakes Midwest,84.95712528117116
+50 Tarrant Plant,South Eastern,22.24570320752607
+East Vancouver,Pacific Northwest,96.53261585494674
+Portable,South Central,20.15726943964607
+Chappell,Rocky Mountains,187.1647383399406
+Plant 13,Eastern,40.94193893148744
+Industrial Rd Plant 163,Great Lakes Midwest,97.44068997228679
+New Carlisle Plant 9,Great Lakes Midwest,24.973032423229398
+Ankeny,North Central,87.9142381348876
+36th&L,North Central,9.572247008090274
+Oildale,Pacific Southwest,579.4369741633217
+Downtown,South Central,20.478022046304698
+New Britain Concrete,Eastern,156.23802304050108
+Corvallis Plant,Pacific Northwest,179.8990269302944
+Palmdale,Pacific Southwest,549.3731591832677
+"Omaha, NE #3 Plant",North Central,8.1720456833236
+"Falmouth, MA",Eastern,124.93742776541936
+Long Beach,Pacific Southwest,558.4239501907615
+Bakersfield,Pacific Southwest,568.3487019523532
+MB3,South Eastern,49.37564467421427
+YD 11,Great Lakes Midwest,34.73013782047299
+Regency Park,South Eastern,19.975082953260344
+YD 02,Great Lakes Midwest,44.489231610473865
+Brownsville,South Central,237.66612400114332
+Willimantic,Eastern,131.56940112095643
+Boro Sand & Stone (North Attleboro),Eastern,96.2874843103384
+5 Plant,Great Lakes Midwest,115.70382889880324
+Elkhart West,Great Lakes Midwest,55.022804379435044
+Southmont Plant,South Eastern,73.23244311332596
+"Dekalb, USA",Great Lakes Midwest,91.40156834478732
+"Portable LA - 	1234 Holly Ridge, Louisiana 71269",South Central,163.56848148930618
+Medford (Oregon),Pacific Northwest,365.0657412355376
+Upper Marlboro,Eastern,35.391775510457705
+Elkhorn,North Central,19.997265959958742
+Lenoir,South Eastern,47.42969167484808
+"Fargo, ND",North Central,145.4636683360881
+Kennesaw,South Eastern,28.9879080865448
+GIBSON & SCHAEFER,Pacific Southwest,372.04866591273446
+Parkersburg,Eastern,18.933103011172282
+Aliquippa,Eastern,46.292765978599924
+Gretna,North Central,26.83565933861086
+New Buffalo,Great Lakes Midwest,11.406290777585843
+Alparetta,South Eastern,45.07518610113463
+85 Auburn,South Eastern,18.434762076379137
+Spanish Fork (629),Rocky Mountains,82.46803037269937
+113 - Baldwin,South Eastern,23.847042887146284
+Wismann Lane,Great Lakes Midwest,107.9092671529944
+Cedarhurst,Eastern,211.9995774665391
+Morgan Ave (B),Eastern,199.0186038997353
+Walnut,Pacific Southwest,537.6870021250948
+14-Hickory,South Eastern,25.686368324903377
+244630 - Wheatland (Oregon),Pacific Northwest,141.48104191780482
+Albuquerque Ready Mix Plant,Rocky Mountains,199.81383672809974
+Salmon Bay Sand & Gravel,Pacific Northwest,96.80664123180931
+61st Street - CAM67B42,Eastern,101.87294170280985
+Stafford Plant 4367A,South Central,18.55916089825643
+CTI Mobile Plant,North Central,92.54365143474966
+Alsip,Great Lakes Midwest,52.58018815166466
+Duwamish Washington,Pacific Northwest,87.94499608535176
+Cedar Pass Plant,Eastern,126.30879739520549
+"Smyrna, GA",South Eastern,45.051325388047275
+Ina Road,Pacific Southwest,87.13609305678105
+Red Mountain,Pacific Southwest,199.55814184696834
+Pike Peak Parking Lot,Rocky Mountains,81.40883840580611
+Lee's Summit,South Central,22.2027042141499
+Boston Plant,Eastern,56.15637466290529
+Troutdale Ready Mix Plant,Pacific Northwest,103.24375209713298
+Owl Canyon,Rocky Mountains,8.059328668895324
+SH-115,Rocky Mountains,18.703319373159186
+Hockley Plant 4362A,South Central,42.76815340450123
+Alameda Ready Mix,Pacific Southwest,561.1886239079374
+340132 - Bismark (North Dakota),North Central,42.80667851417351
+Wilmington Plant 4 NCDOT 535,South Eastern,115.91789180657909
+Otsego Ready Mix,Eastern,229.89119763381262
+Hercules,Great Lakes Midwest,37.789280077547325
+Corinth,South Central,108.35168454148906
+West Valley (621),Rocky Mountains,114.38813426622093
+Oxnard,Pacific Southwest,619.4985522015237
+Spring Hill,South Eastern,72.55893720407124
+Southbury,Eastern,185.23854499359987
+Alameda,Pacific Southwest,561.1812295723713
+Loveland Ready Mix,Rocky Mountains,42.11999950290181
+Loveland Ready Mix North,Rocky Mountains,37.30839971665404

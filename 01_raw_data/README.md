@@ -58,3 +58,13 @@ Natural Earth 110m-resolution country boundary shapefile, used by [`ec3_concrete
 | `ne_110m_admin_0_countries.cpg` | Character encoding |
 
 **Why this is committed to the repo:** The shapefile is small (~500 KB total) and used as static reference data. Committing it avoids a runtime network download, which was unreliable in this environment due to SSL certificate verification issues with `naciscdn.org`.
+
+---
+
+### US State Boundaries (`cb_2022_us_state_500k.zip`)
+
+Census Bureau TIGER/Line cartographic boundary file for US states (2022, 1:500k resolution). Used by [`road_shortest_distance_study.ipynb`](../04_analysis_scripts/road_shortest_distance_study.ipynb) to assign concrete plant coordinates to states and NRMCA regions via a spatial join.
+
+**Source:** [US Census Bureau TIGER/Line](https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html)
+
+**Downloaded automatically** on first run of the notebook and cached here to avoid repeated downloads.
