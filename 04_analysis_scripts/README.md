@@ -18,6 +18,21 @@ Analyzes EPD data by SCM type and compressive strength, and generates an interac
 
 ---
 
+### `broyles_epd_analysis.ipynb`
+Analyzes the Broyles EPD dataset by SCM type and compressive strength, producing the same two visualizations as `ec3_epd_analysis.ipynb` for comparison.
+
+**Inputs:** `../02_processed_data/broyles_epd_data_cleaned.csv`
+
+**Outputs:** `../tests/broyles_gwp_by_compressive_strength_scm.png`, `../tests/broyles_scm_type_breakdown_pies.png`
+
+**Key steps:**
+- Classifies mixes by SCM type (Fly Ash, Slag, Both, or No SCM) using the `contains_fly_ash` and `contains_slag` boolean fields
+- Filters to compressive strengths 2,500–8,000 psi
+- Generates a Plotly box + scatter plot of GWP vs. compressive strength, colored by SCM type, with per-bucket EPD counts and random dot sampling for visual clarity
+- Generates a grid of pie charts showing the SCM type breakdown for each strength bucket
+
+---
+
 ### `fly_ash_analysis_01.ipynb`
 Produces three publication-quality visualizations analyzing fly ash usage patterns and the geographic relationship between concrete plants and coal plants. Written in R using `ggplot2`.
 

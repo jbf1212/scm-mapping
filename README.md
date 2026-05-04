@@ -25,15 +25,28 @@ Fly ash and slag, both industrial byproducts, are commonly used as Supplementary
 ### Data Sources
 
 **Environmental Product Declarations (EPDs):**
+
+*EC3 Database:*
 75,000+ records from the [Building Transparency EC3](https://buildingtransparency.org/ec3) database, accessed via the EC3 API using the [ec3-python-wrapper](https://github.com/jbf1212/ec3-python-wrapper).
+
+*Broyles EPD Dataset:*
+47,000+ records from a [published dataset](https://data.mendeley.com/datasets/r4jgxk2mhn/5) of U.S. concrete mixture EPDs compiled by Jonathan Broyles.
+
+> Broyles, Jonathan (2026), "Compiled Dataset of Concrete Mixture Environmental Product Declarations in the U.S.A.", Mendeley Data, V5, doi: 10.17632/r4jgxk2mhn.5
 
 **Coal Plant Data:**
 U.S. coal plant locations and capacity from the [Global Energy Monitor – Global Coal Plant Tracker](https://globalenergymonitor.org/projects/global-coal-plant-tracker/) dataset.
 
 ### Summary of Findings
+An in-depth analysis of the findings can be found on the [Matter Flows blog](https://www.matterflows.com/2026/03/31/what-72000-concrete-mixes-reveal-about-cement-replacement/). Some key findings are listed below.
+
+**Differences in Datasets:**
+This study was originally performed on the EC3 EPD dataset. The EC3 dataset only listed fly ash as being used in 5.5% of mixes, which I suspected was underrepresenting the true count of mixes with fly ash. This is likely due to limitations with data entry into the EC3 system. An analysis based on the Broyles dataset was added later and shows ~47% of mixes including fly ash, which is closer to what we would expect to find.
 
 **SCM Performance by Strength:**
-While fly ash is generally assumed to reduce Global Warming Potential (GWP), the data shows that for higher-strength mixes (≥ 6,000 psi), fly ash substitution is often associated with higher GWP. Emissions benefits for fly ash are more consistently observed in lower-strength mixes, suggesting that the use of fly ash (and to a certain extent slag) for lowering GWP may be best applied at lower strength mixes. That said, the application of SCMs for higher strength mixes can often be for reasons beyond purely lowering GWP - so there are likely multiple factors contributing to the distributions seen in the data.
+While fly ash is generally assumed to reduce Global Warming Potential (GWP), the EC3 data shows that for higher-strength mixes (≥ 6,000 psi), fly ash substitution is often associated with higher GWP. However, the Broyles dataset shows GWP reductions for fly ash even at these higher strengths. A deeper investigation would be required in order to determine the cause of this discrepancy, though we know the EC3 data is somewhat incomplete and many mixes in the 'Non-SCM' bucket likely contain SCMs.
+
+That said, at higher strengths, fly ash is often getting added as an addition instead of a substitution. A couple reasons for this could be cost (fly ash is often cheaper than portland cement) and workability / pumpability. So there may be reasons as to why we see some differing behaviors in higher strength mixes.
 
 **Geographic Patterns:**
 Mapping concrete plants against coal plants reveals regional disparities in fly ash availability. The West Coast and Northeast have relatively few coal plants, potentially increasing transport distances and embodied emissions. In these regions, imported fly ash via ship or alternative SCMs may be more viable decarbonization strategies.
@@ -52,6 +65,10 @@ ec3_concrete_data_cleaning.ipynb        → 02_processed_data/epd_data_cleaned_a
    ├── ec3_concrete_filtering_all.ipynb → 02_processed_data/epd_data_all.csv
    └── ec3_concrete_filtering_scm.ipynb → 02_processed_data/epd_data_fly_ash.csv
                                             02_processed_data/epd_data_fly_ash_or_ggbs.csv
+
+Broyles EPD Dataset (Excel, ~47k records)
+   ↓
+broyles_epd_data_processing.ipynb       → 02_processed_data/broyles_epd_data_cleaned.csv (44,327 records)
 
 Global Energy Monitor (Excel)
    ↓

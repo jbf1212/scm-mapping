@@ -16,6 +16,10 @@ ec3_concrete_data_cleaning.ipynb    → 02_processed_data/epd_data_cleaned_all.p
    │                                          02_processed_data/epd_data_fly_ash_or_ggbs.csv
    └── ec3_concrete_plant_list.ipynb        → 02_processed_data/active_concrete_plants_ec3.csv
 
+Broyles EPD Dataset (Excel)
+   ↓
+broyles_epd_data_processing.ipynb  → 02_processed_data/broyles_epd_data_cleaned.csv
+
 Global Energy Monitor (Excel)
    ↓
 coal_plant_data_filtering.ipynb     → 02_processed_data/active_coal_plants_US.csv
@@ -95,6 +99,25 @@ Filters the cleaned EPD dataset to records containing SCM data.
 **Outputs:**
 - `../02_processed_data/epd_data_fly_ash.csv` — EPDs with fly ash content only
 - `../02_processed_data/epd_data_fly_ash_or_ggbs.csv` — EPDs with fly ash and/or GGBS (4,745 records)
+
+---
+
+### Broyles EPD Data
+
+#### `broyles_epd_data_processing.ipynb`
+Cleans and standardizes the Broyles compiled concrete EPD dataset for downstream analysis.
+
+**Inputs:** `../01_raw_data/epd_data_Broyles/Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx`
+
+**Outputs:** `../02_processed_data/broyles_epd_data_cleaned.csv` (44,327 records)
+
+**Key processing steps:**
+- Selects the same core fields as the EC3 pipeline (company, plant location, mix label, compressive strength, product components, A1–A3 GWP)
+- Coerces GWP columns to numeric (source file uses `-` as a placeholder for missing values)
+- Calculates GWP per cubic yard (multiply by 0.764555 m³/yd³ conversion)
+- Parses `Product Components` field to create `contains_fly_ash` and `contains_slag` boolean flags
+- Filters out records where compressive strength < 2,000 psi
+- Removes outliers using IQR method globally and per compressive strength bucket (rounded to nearest 500 psi)
 
 ---
 
