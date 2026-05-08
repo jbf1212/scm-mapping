@@ -1,0 +1,73 @@
+metro_area,is_state,metro_lat,metro_lon
+Alabama,True,,
+Arizona,True,,
+"Atlanta-Sandy Springs-Alpharetta, GA",False,33.7490,-84.3880
+"Austin-Round Rock-San Marcos, TX",False,30.2672,-97.7431
+"Baltimore-Columbia-Towson, MD",False,39.2904,-76.6122
+"Birmingham-Hoover, AL",False,33.5207,-86.8025
+"Boston-Cambridge-Newton, MA-NH",False,42.3601,-71.0589
+"Buffalo-Cheektowaga, NY",False,42.8864,-78.8784
+California,True,,
+"Charlotte-Concord-Gastonia, NC-SC",False,35.2271,-80.8431
+"Chicago-Naperville-Elgin, IL-IN-WI",False,41.8781,-87.6298
+Colorado,True,,
+"Columbus, OH",False,39.9612,-82.9988
+"Dallas-Fort Worth-Arlington, TX",False,32.8959,-97.0383
+"Denver-Aurora-Lakewood, CO",False,39.7392,-104.9903
+"Detroit-Warren-Dearborn, MI",False,42.3314,-83.0458
+Florida,True,,
+Georgia,True,,
+"Hartford-East Hartford-Middletown, CT",False,41.7658,-72.6851
+Hawaii,True,,
+"Houston-The Woodlands-Sugar Land, TX",False,29.7604,-95.3698
+Idaho,True,,
+Indiana,True,,
+Iowa,True,,
+"Jacksonville, FL",False,30.3322,-81.6557
+"Kansas City, MO-KS",False,39.0997,-94.5786
+"Las Vegas-Henderson-Paradise, NV",False,36.1699,-115.1398
+"Los Angeles-Long Beach, Anaheim, CA",False,34.0522,-118.2437
+Louisiana,True,,
+"Louisville, KY-IN",False,38.2527,-85.7585
+Massachusetts,True,,
+"Miami-Fort Lauderdale-Pompano Beach, FL",False,25.7617,-80.1918
+"Minneapolis-St. Paul-Bloomington, MN-WI",False,44.9778,-93.2650
+Montana,True,,
+"Nashville-Davidson-Murfreesboro-Franklin, TN",False,36.1627,-86.7816
+Nebraska,True,,
+Nevada,True,,
+"New Orleans-Metairie-Kenner, LA",False,29.9511,-90.0715
+New York,True,,
+"New York-Newark-Jersey City, NY-NJ-PA",False,40.7128,-74.0060
+North Carolina,True,,
+North Dakota,True,,
+Oregon,True,,
+"Orlando-Kissimmee-Sanford, FL",False,28.5383,-81.3792
+Pennsylvania,True,,
+"Philadelphia-Camden-Wilmington, PA-NJ-DE-MD",False,39.9526,-75.1652
+"Phoenix-Mesa-Chandler, AZ",False,33.4484,-112.0740
+"Portland-Vancouver-Hillsboro, OR-WA",False,45.5051,-122.6750
+"Providence-Warwick, RI-MA",False,41.8240,-71.4128
+"Raleigh-Cary, NC",False,35.7796,-78.6382
+"Richmond, VA",False,37.5407,-77.4360
+"Riverside-San Bernardino-Ontario, CA",False,33.9534,-117.3961
+"Sacramento-Roseville-Folsom, CA",False,38.5816,-121.4944
+"Salt Lake City, UT",False,40.7608,-111.8910
+"San Antonio-New Braunfels, TX",False,29.4241,-98.4936
+"San Diego-Chula Vista-Carlsbad, CA",False,32.7157,-117.1611
+"San Francisco-Oakland-Berkeley, CA",False,37.7749,-122.4194
+"San Jose-Sunnyvale-Santa Clara, CA",False,37.3382,-121.8863
+"Seattle-Tacoma-Bellevue, WA",False,47.6062,-122.3321
+South Carolina,True,,
+South Dakota,True,,
+"Tampa-St. Petersburg-Clearwater, FL",False,27.9506,-82.4572
+Tennessee,True,,
+Texas,True,,
+Utah,True,,
+"Vancouver, BC",False,49.2827,-123.1207
+Virginia,True,,
+"Virginia Beach-Norfolk-Newport News, VA-NC",False,36.8529,-75.9780
+Washington,True,,
+"Washington-Arlington-Alexandria, DC-VA-MD-WV",False,38.9072,-77.0369
+Wisconsin,True,,
+Wyoming,True,,
