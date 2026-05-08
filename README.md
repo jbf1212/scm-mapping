@@ -69,6 +69,9 @@ ec3_concrete_data_cleaning.ipynb        → 02_processed_data/epd_data_cleaned_a
 Broyles EPD Dataset (Excel, ~47k records)
    ↓
 broyles_epd_data_processing.ipynb       → 02_processed_data/broyles_epd_data_cleaned.csv (44,327 records)
+   ↓                                       (includes plant_lat/lon + metro_lat/lon coordinates)
+   ├── broyles_epd_analysis.ipynb        → GWP by strength & SCM type (box plot + pie charts)
+   └── broyles_a2_gwp_mapping.ipynb      → A2 GWP spike maps by plant & metro location
 
 Global Energy Monitor (Excel)
    ↓

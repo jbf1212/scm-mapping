@@ -33,6 +33,25 @@ Analyzes the Broyles EPD dataset by SCM type and compressive strength, producing
 
 ---
 
+### `broyles_a2_gwp_mapping.ipynb`
+Maps transport-phase (A2) GWP by concrete plant location across the continental US using the Broyles dataset. Produces interactive spike maps where triangular polygon markers are scaled in height to median A2 GWP.
+
+**Inputs:** `../02_processed_data/broyles_epd_data_cleaned.csv`
+
+**Outputs:** HTML interactive maps saved to `../tests/` during development:
+- `broyles_a2_gwp_spikes.html` — plant-level spike map (594 locations)
+- `broyles_a2_gwp_spikes_metro.html` — metro-consolidated spike map (249 locations)
+- `broyles_a2_gwp_spikes_scm_grid.html` — 2×2 grid comparing all four SCM buckets with shared colorscale
+- `broyles_a2_gwp_spikes_no_scm.html`, `fly_ash_only.html`, `slag_only.html`, `fly_ash_and_slag.html` — individual SCM bucket maps
+
+**Key steps:**
+- Filters to continental US bounds (lat 24°–50°, lon -125° to -66°); drops records missing coordinates or A2 GWP
+- Aggregates median A2 GWP per plant (by lat/lon) and per metro centroid (via `metro_lat`/`metro_lon`)
+- Renders spikes using Plotly `Scattermap` polygon fill on a Carto Positron basemap; spikes are binned into 20 color bands (YlGnBu colorscale) for rendering efficiency
+- Produces SCM-bucket breakdowns by filtering on `contains_fly_ash` / `contains_slag` flags before aggregation
+
+---
+
 ### `fly_ash_analysis_01.ipynb`
 Produces three publication-quality visualizations analyzing fly ash usage patterns and the geographic relationship between concrete plants and coal plants. Written in R using `ggplot2`.
 
@@ -92,7 +111,7 @@ Calculates the road distance from every active concrete plant to its nearest coa
 ## Dependencies
 
 - **R packages:** `ggplot2`, `dplyr`, `sf`, `maps` (or equivalent spatial packages)
-- **Python packages:** `pandas`, `plotly`, `numpy`, `requests`, `folium`, `scipy`
+- **Python packages:** `pandas`, `plotly`, `numpy`, `requests`, `folium`, `scipy`, `pgeocode` (used in processing pipeline; see `requirements.txt`)
 
 ## Usage Notes
 

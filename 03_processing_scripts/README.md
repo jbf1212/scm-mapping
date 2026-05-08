@@ -105,17 +105,21 @@ Filters the cleaned EPD dataset to records containing SCM data.
 ### Broyles EPD Data
 
 #### `broyles_epd_data_processing.ipynb`
-Cleans and standardizes the Broyles compiled concrete EPD dataset for downstream analysis.
+Cleans and standardizes the Broyles compiled concrete EPD dataset for downstream analysis, including geocoding and metro-area coordinate enrichment.
 
-**Inputs:** `../01_raw_data/epd_data_Broyles/Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx`
+**Inputs:**
+- `../01_raw_data/epd_data_Broyles/Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx`
+- `../02_processed_data/metro_area_lookup.csv` — metro-area centroid coordinates
 
-**Outputs:** `../02_processed_data/broyles_epd_data_cleaned.csv` (44,327 records)
+**Outputs:** `../02_processed_data/broyles_epd_data_cleaned.csv` (44,327 records, 35 columns)
 
 **Key processing steps:**
 - Selects the same core fields as the EC3 pipeline (company, plant location, mix label, compressive strength, product components, A1–A3 GWP)
 - Coerces GWP columns to numeric (source file uses `-` as a placeholder for missing values)
-- Calculates GWP per cubic yard (multiply by 0.764555 m³/yd³ conversion)
+- Calculates GWP per cubic yard (multiply by 0.764555 m³/yd³ conversion) for A1, A2, A3, and A1–A3 total
 - Parses `Product Components` field to create `contains_fly_ash` and `contains_slag` boolean flags
+- **Geocoding:** Deduplicates plant zip codes and looks up lat/lon via `pgeocode` (local GeoNames database; no API key). Achieves 100% match rate. Adds `plant_lat`, `plant_lon` columns.
+- **Metro-area enrichment:** Merges `metro_area_lookup.csv` on the `Metro/State (within 60 mi)` field to add metro-centroid coordinates. Records matching a named metro (83.6%) get `metro_lat`/`metro_lon`; state-only or unmatched records fall back to plant coordinates. Adds `metro_lat`, `metro_lon`, `is_state` columns.
 - Filters out records where compressive strength < 2,000 psi
 - Removes outliers using IQR method globally and per compressive strength bucket (rounded to nearest 500 psi)
 
@@ -141,7 +145,7 @@ Processes the Global Energy Monitor coal plant tracker to extract active US faci
 
 ## Requirements
 
-- **Python packages:** `pandas`, `numpy`, `plotly`, `geopandas`, `ec3-python-wrapper`, `openpyxl`
+- **Python packages:** `pandas`, `numpy`, `plotly`, `geopandas`, `ec3-python-wrapper`, `openpyxl`, `pgeocode`
 - **Environment variable:** `EC3_KEY` — required for EC3 data collection notebooks
 
 See [`requirements.txt`](../requirements.txt) for complete dependencies.
