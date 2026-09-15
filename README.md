@@ -30,7 +30,7 @@ Fly ash and slag, both industrial byproducts, are commonly used as Supplementary
 75,000+ records from the [Building Transparency EC3](https://buildingtransparency.org/ec3) database, accessed via the EC3 API using the [ec3-python-wrapper](https://github.com/jbf1212/ec3-python-wrapper).
 
 *Broyles EPD Dataset:*
-47,000+ records from a [published dataset](https://data.mendeley.com/datasets/r4jgxk2mhn/5) of U.S. concrete mixture EPDs compiled by Jonathan Broyles.
+47,000+ records from a [published dataset](https://data.mendeley.com/datasets/r4jgxk2mhn/5) of U.S. and Canadian concrete mixture EPDs compiled by Jonathan Broyles. A later release of this dataset (Version 5d) added Canadian records alongside the original U.S. data; both are included in the current analysis.
 
 > Broyles, Jonathan (2026), "Compiled Dataset of Concrete Mixture Environmental Product Declarations in the U.S.A.", Mendeley Data, V5, doi: 10.17632/r4jgxk2mhn.5
 
@@ -66,12 +66,14 @@ ec3_concrete_data_cleaning.ipynb        → 02_processed_data/epd_data_cleaned_a
    └── ec3_concrete_filtering_scm.ipynb → 02_processed_data/epd_data_fly_ash.csv
                                             02_processed_data/epd_data_fly_ash_or_ggbs.csv
 
-Broyles EPD Dataset (Excel, ~47k records)
+Broyles EPD Dataset, U.S. + Canada (Excel, ~47k records)
    ↓
-broyles_epd_data_processing.ipynb       → 02_processed_data/broyles_epd_data_cleaned.csv (44,327 records)
+broyles_epd_data_processing.ipynb       → 02_processed_data/broyles_epd_data_cleaned_with_Canada.csv (46,505 records)
    ↓                                       (includes plant_lat/lon + metro_lat/lon coordinates)
    ├── broyles_epd_analysis.ipynb        → GWP by strength & SCM type (box plot + pie charts)
-   └── broyles_a2_gwp_mapping.ipynb      → A2 GWP spike maps by plant & metro location
+   │                                        (toggle a line in the notebook to switch back to the US-only CSV)
+   └── broyles_a2_gwp_mapping_with_Canada.ipynb → A2 GWP spike maps by plant & metro location
+       (broyles_a2_gwp_mapping.ipynb is the US-only counterpart, reading broyles_epd_data_cleaned.csv — both notebooks are kept so either scope can be run)
 
 Global Energy Monitor (Excel)
    ↓

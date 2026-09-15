@@ -19,9 +19,12 @@ JSON files exported from the EC3 (Embodied Carbon in Construction Calculator) da
 
 ### Broyles EPD Dataset (`epd_data_Broyles/`)
 
-**File:** `Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx`
+Published dataset of concrete mixture EPDs compiled by Jonathan Broyles. Includes company and plant location, mix composition (product components), compressive strength, and A1–A3 GWP values.
 
-Published dataset of 47,000+ U.S. concrete mixture EPDs compiled by Jonathan Broyles. Includes company and plant location, mix composition (product components), compressive strength, and A1–A3 GWP values.
+| File | Description | Notes |
+|------|-------------|-------|
+| `Compiled_Concrete_EPD_Data_Version_5d_United_States_Canada_Only.xlsx` | U.S. + Canada release (~47,000 records, includes a `Country` field) | **Current** — used by `broyles_epd_data_processing.ipynb` |
+| `Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx` | Original U.S.-only release | Superseded; retained for reference |
 
 **Source:** [https://data.mendeley.com/datasets/r4jgxk2mhn/5](https://data.mendeley.com/datasets/r4jgxk2mhn/5)
 
@@ -30,7 +33,7 @@ Published dataset of 47,000+ U.S. concrete mixture EPDs compiled by Jonathan Bro
 Broyles, Jonathan (2026), "Compiled Dataset of Concrete Mixture Environmental Product Declarations in the U.S.A.", Mendeley Data, V5, doi: 10.17632/r4jgxk2mhn.5
 ```
 
-**Processed by:** [`broyles_epd_data_processing.ipynb`](../03_processing_scripts/broyles_epd_data_processing.ipynb) → [`broyles_epd_data_cleaned.csv`](../02_processed_data/broyles_epd_data_cleaned.csv)
+**Processed by:** [`broyles_epd_data_processing.ipynb`](../03_processing_scripts/broyles_epd_data_processing.ipynb) → [`broyles_epd_data_cleaned_with_Canada.csv`](../02_processed_data/broyles_epd_data_cleaned_with_Canada.csv)
 
 ---
 

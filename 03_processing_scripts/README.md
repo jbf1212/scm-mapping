@@ -16,9 +16,9 @@ ec3_concrete_data_cleaning.ipynb    → 02_processed_data/epd_data_cleaned_all.p
    │                                          02_processed_data/epd_data_fly_ash_or_ggbs.csv
    └── ec3_concrete_plant_list.ipynb        → 02_processed_data/active_concrete_plants_ec3.csv
 
-Broyles EPD Dataset (Excel)
+Broyles EPD Dataset, U.S. + Canada (Excel)
    ↓
-broyles_epd_data_processing.ipynb  → 02_processed_data/broyles_epd_data_cleaned.csv
+broyles_epd_data_processing.ipynb  → 02_processed_data/broyles_epd_data_cleaned_with_Canada.csv
 
 Global Energy Monitor (Excel)
    ↓
@@ -105,23 +105,25 @@ Filters the cleaned EPD dataset to records containing SCM data.
 ### Broyles EPD Data
 
 #### `broyles_epd_data_processing.ipynb`
-Cleans and standardizes the Broyles compiled concrete EPD dataset for downstream analysis, including geocoding and metro-area coordinate enrichment.
+Cleans and standardizes the Broyles compiled concrete EPD dataset for downstream analysis, including country-aware geocoding and metro-area coordinate enrichment.
 
 **Inputs:**
-- `../01_raw_data/epd_data_Broyles/Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx`
+- `../01_raw_data/epd_data_Broyles/Compiled_Concrete_EPD_Data_Version_5d_United_States_Canada_Only.xlsx`
 - `../02_processed_data/metro_area_lookup.csv` — metro-area centroid coordinates
 
-**Outputs:** `../02_processed_data/broyles_epd_data_cleaned.csv` (44,327 records, 35 columns)
+**Outputs:** `../02_processed_data/broyles_epd_data_cleaned_with_Canada.csv` (46,505 records: 44,551 US / 1,954 Canada; 36 columns)
 
 **Key processing steps:**
-- Selects the same core fields as the EC3 pipeline (company, plant location, mix label, compressive strength, product components, A1–A3 GWP)
+- Selects the same core fields as the EC3 pipeline (company, plant location, mix label, compressive strength, product components, A1–A3 GWP) plus `Country`
 - Coerces GWP columns to numeric (source file uses `-` as a placeholder for missing values)
 - Calculates GWP per cubic yard (multiply by 0.764555 m³/yd³ conversion) for A1, A2, A3, and A1–A3 total
 - Parses `Product Components` field to create `contains_fly_ash` and `contains_slag` boolean flags
-- **Geocoding:** Deduplicates plant zip codes and looks up lat/lon via `pgeocode` (local GeoNames database; no API key). Achieves 100% match rate. Adds `plant_lat`, `plant_lon` columns.
-- **Metro-area enrichment:** Merges `metro_area_lookup.csv` on the `Metro/State (within 60 mi)` field to add metro-centroid coordinates. Records matching a named metro (83.6%) get `metro_lat`/`metro_lon`; state-only or unmatched records fall back to plant coordinates. Adds `metro_lat`, `metro_lon`, `is_state` columns.
+- **Geocoding:** Deduplicates plant postal codes and looks up lat/lon via `pgeocode` (local GeoNames database; no API key), routing US records through the `us` GeoNames dataset (full 5-digit ZIP) and Canadian records through the `ca` dataset. GeoNames only publishes Canadian postal codes at the 3-character FSA (Forward Sortation Area) level (e.g. "A1A 1A6" → "A1A"), so Canadian coordinates are coarser than US ones. Achieves 100% match rate. Adds `plant_lat`, `plant_lon` columns.
+- **Metro-area enrichment:** Merges `metro_area_lookup.csv` on the `Metro/State (within 60 mi)` field to add metro-centroid coordinates. Records matching a named metro get `metro_lat`/`metro_lon`; state-only or unmatched records (including Canadian plants, which have no metro-area entries in the lookup table) fall back to plant coordinates. Adds `metro_lat`, `metro_lon` columns.
 - Filters out records where compressive strength < 2,000 psi
 - Removes outliers using IQR method globally and per compressive strength bucket (rounded to nearest 500 psi)
+
+**Note:** This notebook previously read the U.S.-only `Compiled_Concrete_EPD_Data_Version_4c_Final_Published.xlsx` and wrote `broyles_epd_data_cleaned.csv` (44,327 records). That output is kept in place — it's still the input for the U.S.-only `broyles_a2_gwp_mapping.ipynb`, and can be swapped in for `broyles_epd_analysis.ipynb` by toggling a commented line — but the notebook itself no longer regenerates it now that it points at the `Version_5d` U.S.+Canada file; reproducing it requires manually pointing `excel_path`/`output_path` in the cell above back at the `Version_4c` file.
 
 ---
 

@@ -19,33 +19,35 @@ Analyzes EPD data by SCM type and compressive strength, and generates an interac
 ---
 
 ### `broyles_epd_analysis.ipynb`
-Analyzes the Broyles EPD dataset by SCM type and compressive strength, producing the same two visualizations as `ec3_epd_analysis.ipynb` for comparison.
+Analyzes the Broyles EPD dataset by SCM type and compressive strength, producing visualizations comparable to `ec3_epd_analysis.ipynb`. A single notebook covers both dataset scopes: the input cell has one active `pd.read_csv(...)` line and one commented-out line, so switching between the U.S.+Canada and U.S.-only views is a matter of swapping which line is commented.
 
-**Inputs:** `../02_processed_data/broyles_epd_data_cleaned.csv`
+**Inputs:** `../02_processed_data/broyles_epd_data_cleaned_with_Canada.csv` (active by default) or `../02_processed_data/broyles_epd_data_cleaned.csv` (U.S.-only; commented-out alternative in the same cell)
 
-**Outputs:** `../tests/broyles_gwp_by_compressive_strength_scm.png`, `../tests/broyles_scm_type_breakdown_pies.png`
+**Outputs:** `../05_outputs/images/broyles_a1a3_gwp_by_compressive_strength_scm.png`, `../05_outputs/images/broyles_a2_gwp_by_compressive_strength_scm.png`, `../05_outputs/images/broyles_scm_type_breakdown_pies.png` (written to `../tests/` during development, then promoted to `05_outputs/`)
 
 **Key steps:**
 - Classifies mixes by SCM type (Fly Ash, Slag, Both, or No SCM) using the `contains_fly_ash` and `contains_slag` boolean fields
 - Filters to compressive strengths 2,500–8,000 psi
-- Generates a Plotly box + scatter plot of GWP vs. compressive strength, colored by SCM type, with per-bucket EPD counts and random dot sampling for visual clarity
+- Generates separate Plotly box + scatter plots of A1–A3 GWP and A2 GWP vs. compressive strength, colored by SCM type, with per-bucket EPD counts and random dot sampling for visual clarity
 - Generates a grid of pie charts showing the SCM type breakdown for each strength bucket
 
 ---
 
-### `broyles_a2_gwp_mapping.ipynb`
-Maps transport-phase (A2) GWP by concrete plant location across the continental US using the Broyles dataset. Produces interactive spike maps where triangular polygon markers are scaled in height to median A2 GWP.
+### `broyles_a2_gwp_mapping.ipynb` / `broyles_a2_gwp_mapping_with_Canada.ipynb`
+Maps transport-phase (A2) GWP by concrete plant location using the Broyles dataset. Produces interactive spike maps where triangular polygon markers are scaled in height to median A2 GWP. Both notebooks are kept side by side — `broyles_a2_gwp_mapping.ipynb` for a continental-US-only view, `broyles_a2_gwp_mapping_with_Canada.ipynb` for the wider U.S.+Canada view — so either scope can be run without having to edit the other.
 
-**Inputs:** `../02_processed_data/broyles_epd_data_cleaned.csv`
+**Inputs:**
+- `broyles_a2_gwp_mapping.ipynb` → `../02_processed_data/broyles_epd_data_cleaned.csv`
+- `broyles_a2_gwp_mapping_with_Canada.ipynb` → `../02_processed_data/broyles_epd_data_cleaned_with_Canada.csv`
 
-**Outputs:** HTML interactive maps saved to `../tests/` during development:
-- `broyles_a2_gwp_spikes.html` — plant-level spike map (594 locations)
-- `broyles_a2_gwp_spikes_metro.html` — metro-consolidated spike map (249 locations)
-- `broyles_a2_gwp_spikes_scm_grid.html` — 2×2 grid comparing all four SCM buckets with shared colorscale
-- `broyles_a2_gwp_spikes_no_scm.html`, `fly_ash_only.html`, `slag_only.html`, `fly_ash_and_slag.html` — individual SCM bucket maps
+**Outputs:** HTML interactive maps saved to `../tests/` during development, then promoted to `../05_outputs/html/`:
+- `broyles_a2_gwp_spikes(.html)` / `broyles_a2_gwp_spikes_with_Canada.html` — plant-level spike map
+- `broyles_a2_gwp_spikes_metro.html` / `broyles_a2_gwp_spikes_metro_with_Canada.html` — metro-consolidated spike map
+- `broyles_a2_gwp_spikes_scm_grid.html` / `broyles_a2_gwp_spikes_scm_grid_with_Canada.html` — 2×2 grid comparing all four SCM buckets with shared colorscale
+- individual SCM-bucket maps (no SCM, fly ash only, slag only, fly ash & slag)
 
 **Key steps:**
-- Filters to continental US bounds (lat 24°–50°, lon -125° to -66°); drops records missing coordinates or A2 GWP
+- Filters to map bounds — lat 24°–50°, lon -125° to -66° (continental US) in `broyles_a2_gwp_mapping.ipynb`; widened to lat 24°–55°, lon -125° to -60° in `broyles_a2_gwp_mapping_with_Canada.ipynb` to include Canada — and drops records missing coordinates or A2 GWP
 - Aggregates median A2 GWP per plant (by lat/lon) and per metro centroid (via `metro_lat`/`metro_lon`)
 - Renders spikes using Plotly `Scattermap` polygon fill on a Carto Positron basemap; spikes are binned into 20 color bands (YlGnBu colorscale) for rendering efficiency
 - Produces SCM-bucket breakdowns by filtering on `contains_fly_ash` / `contains_slag` flags before aggregation
